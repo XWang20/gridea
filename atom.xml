@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xwang20.github.io/</id>
-    <title>Caramel</title>
-    <updated>2020-04-16T02:42:07.590Z</updated>
+    <title>BANKRUPT</title>
+    <updated>2020-04-16T03:48:32.146Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xwang20.github.io/"/>
     <link rel="self" href="https://xwang20.github.io/atom.xml"/>
     <subtitle>人是永远的墓地</subtitle>
     <logo>https://xwang20.github.io/images/avatar.png</logo>
     <icon>https://xwang20.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, Caramel</rights>
+    <rights>All rights reserved 2020, BANKRUPT</rights>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://xwang20.github.io/post/hello-gridea/</id>
