@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xwang20.github.io/</id>
     <title>BANKRUPT</title>
-    <updated>2020-04-21T02:32:33.314Z</updated>
+    <updated>2020-05-09T05:17:41.277Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xwang20.github.io/"/>
     <link rel="self" href="https://xwang20.github.io/atom.xml"/>
@@ -10,6 +10,34 @@
     <logo>https://xwang20.github.io/images/avatar.png</logo>
     <icon>https://xwang20.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, BANKRUPT</rights>
+    <entry>
+        <title type="html"><![CDATA[喜歡]]></title>
+        <id>https://xwang20.github.io/post/xi-huan/</id>
+        <link href="https://xwang20.github.io/post/xi-huan/">
+        </link>
+        <updated>2020-05-09T05:13:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>片段中　有些散落　有些深刻的錯<br>
+還不懂　這一秒鐘　怎麼舉動　怎麼好好地和誰牽手</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>片段中　有些散落　有些深刻的錯<br>
+還不懂　這一秒鐘　怎麼舉動　怎麼好好地和誰牽手</p>
+<!-- more -->
+<p>那寂寞　有些許不同　我挑著留下沒說<br>
+那生活　還過分激動　沒什麼我已經以為能夠把握</p>
+<p>而我　不再覺得失去是捨不得　有時候只願意聽你唱完一首歌<br>
+在所有人事已非的景色裡　我最喜歡你</p>
+<p>片段中　有些散落　有些深刻的錯<br>
+就快懂　這一秒鐘　怎麼舉動　怎麼好好和你過</p>
+<p>那寂寞　有些許不同　我挑著留下沒說<br>
+那生活　還過分激動　沒什麼我已經以為能夠把握</p>
+<p>你知道　你曾經讓人被愛並且經過　畢竟是有著怯怯但能　給的沉默<br>
+在所有不被想起的快樂裡　我最喜歡你</p>
+<p>而我不再覺得失去是捨不得　有時候只願意聽你唱完一首歌<br>
+在所有人事已非的景色裡　我最喜歡你</p>
+<p>而我不再覺得　而我不再覺得......</p>
+<p>詞曲：張懸</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用近端梯度下降法求解L1正则化]]></title>
         <id>https://xwang20.github.io/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/</id>
