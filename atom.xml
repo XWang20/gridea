@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://https://xtopia.coding.net/p/blog</id>
+    <id>https://http://nn8ykd.coding-pages.com</id>
     <title>BANKRUPT</title>
-    <updated>2020-06-06T15:51:13.292Z</updated>
+    <updated>2020-06-06T15:51:31.100Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://https://xtopia.coding.net/p/blog"/>
-    <link rel="self" href="https://https://xtopia.coding.net/p/blog/atom.xml"/>
+    <link rel="alternate" href="https://http://nn8ykd.coding-pages.com"/>
+    <link rel="self" href="https://http://nn8ykd.coding-pages.com/atom.xml"/>
     <subtitle>小 小 调 参 员</subtitle>
-    <logo>https://https://xtopia.coding.net/p/blog/images/avatar.png</logo>
-    <icon>https://https://xtopia.coding.net/p/blog/favicon.ico</icon>
+    <logo>https://http://nn8ykd.coding-pages.com/images/avatar.png</logo>
+    <icon>https://http://nn8ykd.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, BANKRUPT</rights>
     <entry>
         <title type="html"><![CDATA[和你在一起]]></title>
-        <id>https://https://xtopia.coding.net/p/blog/post/he-ni-zai-yi-qi/</id>
-        <link href="https://https://xtopia.coding.net/p/blog/post/he-ni-zai-yi-qi/">
+        <id>https://http://nn8ykd.coding-pages.com/post/he-ni-zai-yi-qi/</id>
+        <link href="https://http://nn8ykd.coding-pages.com/post/he-ni-zai-yi-qi/">
         </link>
         <updated>2020-05-28T14:56:35.000Z</updated>
         <summary type="html"><![CDATA[<p>昨天在梦里 我又看见你<br>
@@ -49,8 +49,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[喜歡]]></title>
-        <id>https://https://xtopia.coding.net/p/blog/post/xi-huan/</id>
-        <link href="https://https://xtopia.coding.net/p/blog/post/xi-huan/">
+        <id>https://http://nn8ykd.coding-pages.com/post/xi-huan/</id>
+        <link href="https://http://nn8ykd.coding-pages.com/post/xi-huan/">
         </link>
         <updated>2020-05-09T05:13:39.000Z</updated>
         <summary type="html"><![CDATA[<p>片段中　有些散落　有些深刻的錯<br>
@@ -77,8 +77,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[使用近端梯度下降法求解L1正则化]]></title>
-        <id>https://https://xtopia.coding.net/p/blog/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/</id>
-        <link href="https://https://xtopia.coding.net/p/blog/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/">
+        <id>https://http://nn8ykd.coding-pages.com/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/</id>
+        <link href="https://http://nn8ykd.coding-pages.com/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/">
         </link>
         <updated>2020-04-17T09:26:45.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="0-introduction">0. INTRODUCTION</h1>
@@ -117,7 +117,7 @@
 <p>次微分是用于解决凸函数的问题的.</p>
 <blockquote>
 <p>设<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span>:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mo>↦</mo><mi mathvariant="double-struck">R</mi></mrow><annotation encoding="application/x-tex">l\mapsto\R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.70544em;vertical-align:-0.011em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↦</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord"><span class="mord mathbb">R</span></span></span></span></span>是一个实变量凸函数，定义在实数轴上的开区间内。这种函数不一定是处处可导的，例如绝对值函数<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi mathvariant="normal">∣</mi><mi>x</mi><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">f(x)=|x|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault">x</span><span class="mord">∣</span></span></span></span>。但是，从右面的图中可以看出（也可以严格地证明），对于定义域中的任何<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">x_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，我们总可以作出一条直线，它通过点<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo separator="true">,</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo><mo>)</mo></mrow><annotation encoding="application/x-tex">(x_0, f(x_0))</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mclose">)</span></span></span></span>，并且要么接触<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span>的图像，要么在它的下方。这条直线的斜率称为函数的次导数。<br>
-<img src="https://https://xtopia.coding.net/p/blog/post-images/1587174425007.png" alt="凸函数（蓝）和x0处的“次切线”（红）" loading="lazy"></p>
+<img src="https://http://nn8ykd.coding-pages.com/post-images/1587174425007.png" alt="凸函数（蓝）和x0处的“次切线”（红）" loading="lazy"></p>
 </blockquote>
 <p>定义: 凸函数<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span>:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mo>↦</mo><mi mathvariant="double-struck">R</mi></mrow><annotation encoding="application/x-tex">l\mapsto\R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.70544em;vertical-align:-0.011em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↦</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord"><span class="mord mathbb">R</span></span></span></span></span>在点x0的次导数，是实数c使得：</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>−</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo><mo>≥</mo><mi>c</mi><mo>(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">f(x)-f(x_{0})\geq c(x-x_{0})
@@ -198,8 +198,8 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://https://xtopia.coding.net/p/blog/post/hello-gridea/</id>
-        <link href="https://https://xtopia.coding.net/p/blog/post/hello-gridea/">
+        <id>https://http://nn8ykd.coding-pages.com/post/hello-gridea/</id>
+        <link href="https://http://nn8ykd.coding-pages.com/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
