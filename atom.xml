@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nn8ykd.coding-pages.com</id>
     <title>BANKRUPT</title>
-    <updated>2020-11-08T05:19:15.267Z</updated>
+    <updated>2020-11-08T06:07:32.007Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nn8ykd.coding-pages.com"/>
     <link rel="self" href="https://nn8ykd.coding-pages.com/atom.xml"/>
@@ -304,6 +304,94 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 <p>最近的我, 对这样现象愈发的感到愤怒, 愤怒过后是失望.</p>
 <p>我们终将只会在不断地成长中与这个社会慢慢脱节, 最后变成孤独的微光.</p>
 <p>不过, 我还是在保留着那么一丁点理想主义. 就像周玄毅所说: **所谓书生意气, 很可能只是因为不相信世界会疯得那么彻底. **</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NOTES | 论文写作线上专题报告会]]></title>
+        <id>https://nn8ykd.coding-pages.com/post/notes-or-lun-wen-xie-zuo-xian-shang-zhuan-ti-bao-gao-hui/</id>
+        <link href="https://nn8ykd.coding-pages.com/post/notes-or-lun-wen-xie-zuo-xian-shang-zhuan-ti-bao-gao-hui/">
+        </link>
+        <updated>2020-03-17T05:20:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>Brief Intro: 由北京智源人工智能=<br>
+研究院主办的智源论坛Live丨论文写作报告会于2020年3月17日以线上直播方式召开，报告人均是智源研究院青年科学家，分别来自于中科院、北京大学、中国人民大学等高等学府，报告会旨在提升中国学术论文写作水平并促进中国的AI学术论文在国际的影响力。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>Brief Intro: 由北京智源人工智能=<br>
+研究院主办的智源论坛Live丨论文写作报告会于2020年3月17日以线上直播方式召开，报告人均是智源研究院青年科学家，分别来自于中科院、北京大学、中国人民大学等高等学府，报告会旨在提升中国学术论文写作水平并促进中国的AI学术论文在国际的影响力。</p>
+<!-- more -->
+<ul>
+<li>Resource: https://www.bilibili.com/video/av97199160/</li>
+<li>本篇仅仅是当时记的笔记，略有不足，若感兴趣可看原视频。</li>
+<li>很感谢兰艳艳老师带来的分享，这也是我走向学术的第一步。</li>
+<li>图片混乱，以后再改。</li>
+</ul>
+<h1 id="从小白到写作的第一步">从小白到写作的第一步</h1>
+<p>—兰艳艳 中国科学院计算技术研究所研究员</p>
+<h2 id="逻辑">逻辑</h2>
+<blockquote>
+<p>论文写作的灵魂：<strong>逻辑</strong></p>
+</blockquote>
+<p>写作前需要梳理的：3W2H</p>
+<ul>
+<li>
+<p>对于审稿人来说，3W是最重要的。</p>
+<figure data-type="image" tabindex="1"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201108140225.png" alt="3W2H" loading="lazy"></figure>
+</li>
+</ul>
+<p><strong>每句话之间都是要有逻辑的。</strong></p>
+<h2 id="论文润色">论文润色</h2>
+<ul>
+<li>
+<p>善用名言：</p>
+<figure data-type="image" tabindex="2"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201108140348.png" alt="善用名言" loading="lazy"></figure>
+</li>
+<li>
+<p>举例子：</p>
+<figure data-type="image" tabindex="3"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201108140452.png" alt="举例子" loading="lazy"></figure>
+</li>
+<li>
+<p>对比（类比）：</p>
+<figure data-type="image" tabindex="4"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201108140521.png" alt="对比、类比" loading="lazy"></figure>
+</li>
+<li>
+<p>善用图表：</p>
+<figure data-type="image" tabindex="5"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201108140543.png" alt="善用图床" loading="lazy"></figure>
+</li>
+<li>
+<p>承前启后：Smooth</p>
+<p>First, Second, Third, Finally, As a result, Consequently</p>
+</li>
+</ul>
+<h2 id="语言">语言？</h2>
+<p>思想、逻辑、文化</p>
+<p>Direct</p>
+<h2 id="复盘把经验转化为能力">复盘：把经验转化为能力</h2>
+<p>自我学习：Practice！</p>
+<blockquote>
+<p>Think like a man of action, act like a man of thought.<br>
+—Henri Bergson</p>
+</blockquote>
+<h1 id="计算机视觉会议论文从投稿到接收">计算机视觉会议论文从投稿到接收</h1>
+<p>—施柏鑫 北京大学 研究院</p>
+<ul>
+<li>长得像个文章<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201108140606.png" alt="评价" loading="lazy"></li>
+<li><strong>Rebuttal：</strong>
+<ul>
+<li>对误解进行申辩</li>
+<li>不要放弃rebuttal（除非抱着”抽奖“的态度）</li>
+</ul>
+</li>
+</ul>
+<h1 id="谈如何写一篇合格的国际学术论文">谈如何写一篇合格的国际学术论文</h1>
+<p>—赵鑫 中国人民大学副教授</p>
+<ul>
+<li>introduction：
+<ul>
+<li>交代研究任务 —让读者知道你要做的任务<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201108140647.png" alt="introduction" loading="lazy"></li>
+</ul>
+</li>
+</ul>
 ]]></content>
     </entry>
     <entry>
