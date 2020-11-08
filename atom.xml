@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://nn8ykd.coding-pages.com</id>
     <title>BANKRUPT</title>
-    <updated>2020-11-08T06:07:32.007Z</updated>
+    <updated>2020-11-08T06:18:57.899Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://nn8ykd.coding-pages.com"/>
     <link rel="self" href="https://nn8ykd.coding-pages.com/atom.xml"/>
@@ -434,6 +434,53 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 <p>老爸说，弹钢琴让我养成了专注的习惯。我觉得不然，因为我在做其他事情时依然无法集中注意力。如果一定要说它带给了我什么，我觉得可能是“在弹琴的时候能够有思考的能力”，你可以在弹琴的时候奇思妙想，可以反思每一天的生活，可以去想象另一种世界，可以对每天发生的时政有自己的思考，这种留给你的特定时间段是一件很奇妙的事，就仿佛与这个时空发生了裂痕，掉入了另一个不需要焦虑、不需要担忧的平行世界。</p>
 <p>后来我知道，这叫做“一段完全安静和属于自己的时间中和自己独处”，一种“高度专注的心流状态”。</p>
 <p>钢琴真的是一件太迷人的东西，只是88个键，却足以表达人类的悲欢离合喜怒哀乐。它的门槛不高，但上限却足够不低，它拥有着独特的生命力和感染力，让每一个人都曾流连忘返。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NOTES | How to Read a Paper Efficiently (By Prof. Pete Carr)]]></title>
+        <id>https://nn8ykd.coding-pages.com/post/notes-or-how-to-read-a-paper-efficiently-by-prof-pete-carr/</id>
+        <link href="https://nn8ykd.coding-pages.com/post/notes-or-how-to-read-a-paper-efficiently-by-prof-pete-carr/">
+        </link>
+        <updated>2020-02-24T06:12:23.000Z</updated>
+        <summary type="html"><![CDATA[<ul>
+<li>Resource:  https://www.youtube.com/watch?v=IeaD0ZaUJ3Y</li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<ul>
+<li>Resource:  https://www.youtube.com/watch?v=IeaD0ZaUJ3Y</li>
+</ul>
+<!-- more -->
+<h2 id="structure">structure</h2>
+<ul>
+<li>Title</li>
+<li>Keywords</li>
+<li>Abstract</li>
+<li>Introduction</li>
+<li>Experimental</li>
+<li>Results and Discussiongs</li>
+<li>Summary/ Conclusions</li>
+<li>Reference</li>
+</ul>
+<h2 id="phase1-survey-the-article">Phase1: &quot;Survey&quot; the Article!</h2>
+<ol>
+<li>Read the title and keywords (these are probably what got you to look at the paper).</li>
+<li>Read the abstract.</li>
+<li>Read the conclusion.</li>
+</ol>
+<p><strong>Feel free to stop reading the article at any point</strong></p>
+<h2 id="phase2-reading-the-article">Phase2: &quot;Reading&quot; the Article!</h2>
+<ol>
+<li>Look at the tables and figures (including the captions).</li>
+<li>Read the Introduction.</li>
+<li>Read the Results and discussions.<br>
+<strong>This is the heart of the paper</strong></li>
+<li>Read the Experimental</li>
+</ol>
+<h2 id="now-what">Now What?</h2>
+<ul>
+<li>write some notes → you don't have to reread the whole paper again</li>
+</ul>
+<p><strong>The faintest writing is better than the best memory</strong></p>
 ]]></content>
     </entry>
 </feed>
