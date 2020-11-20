@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xwang20.github.io</id>
+    <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com</id>
     <title>BANKRUPT</title>
-    <updated>2020-11-20T12:38:48.575Z</updated>
+    <updated>2020-11-20T13:18:35.748Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://xwang20.github.io"/>
-    <link rel="self" href="https://xwang20.github.io/atom.xml"/>
+    <link rel="alternate" href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com"/>
+    <link rel="self" href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/atom.xml"/>
     <subtitle>小 小 调 参 员</subtitle>
-    <logo>https://xwang20.github.io/images/avatar.png</logo>
-    <icon>https://xwang20.github.io/favicon.ico</icon>
+    <logo>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/images/avatar.png</logo>
+    <icon>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/favicon.ico</icon>
     <rights>All rights reserved 2020, BANKRUPT</rights>
     <entry>
         <title type="html"><![CDATA[喜歡]]></title>
-        <id>https://xwang20.github.io/post/xi-huan/</id>
-        <link href="https://xwang20.github.io/post/xi-huan/">
+        <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/xi-huan/</id>
+        <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/xi-huan/">
         </link>
         <updated>2020-05-09T05:13:39.000Z</updated>
         <summary type="html"><![CDATA[<p>片段中　有些散落　有些深刻的錯<br>
@@ -40,8 +40,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[使用近端梯度下降法求解L1正则化]]></title>
-        <id>https://xwang20.github.io/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/</id>
-        <link href="https://xwang20.github.io/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/">
+        <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/</id>
+        <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/">
         </link>
         <updated>2020-04-17T09:26:45.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="0-introduction">0. INTRODUCTION</h1>
@@ -80,7 +80,7 @@
 <p>次微分是用于解决凸函数的问题的.</p>
 <blockquote>
 <p>设<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span>:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mo>↦</mo><mi mathvariant="double-struck">R</mi></mrow><annotation encoding="application/x-tex">l\mapsto\R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.70544em;vertical-align:-0.011em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↦</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord"><span class="mord mathbb">R</span></span></span></span></span>是一个实变量凸函数，定义在实数轴上的开区间内。这种函数不一定是处处可导的，例如绝对值函数<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi mathvariant="normal">∣</mi><mi>x</mi><mi mathvariant="normal">∣</mi></mrow><annotation encoding="application/x-tex">f(x)=|x|</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∣</span><span class="mord mathdefault">x</span><span class="mord">∣</span></span></span></span>。但是，从右面的图中可以看出（也可以严格地证明），对于定义域中的任何<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>x</mi><mn>0</mn></msub></mrow><annotation encoding="application/x-tex">x_0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，我们总可以作出一条直线，它通过点<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo separator="true">,</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo><mo>)</mo></mrow><annotation encoding="application/x-tex">(x_0, f(x_0))</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">x</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">0</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span><span class="mclose">)</span></span></span></span>，并且要么接触<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span>的图像，要么在它的下方。这条直线的斜率称为函数的次导数。<br>
-<img src="https://xwang20.github.io/post-images/1587174425007.png" alt="凸函数（蓝）和x0处的“次切线”（红）" loading="lazy"></p>
+<img src="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post-images/1587174425007.png" alt="凸函数（蓝）和x0处的“次切线”（红）" loading="lazy"></p>
 </blockquote>
 <p>定义: 凸函数<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span></span></span></span>:<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mo>↦</mo><mi mathvariant="double-struck">R</mi></mrow><annotation encoding="application/x-tex">l\mapsto\R</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.70544em;vertical-align:-0.011em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">↦</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.68889em;vertical-align:0em;"></span><span class="mord"><span class="mord mathbb">R</span></span></span></span></span>在点x0的次导数，是实数c使得：</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>−</mo><mi>f</mi><mo>(</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo><mo>≥</mo><mi>c</mi><mo>(</mo><mi>x</mi><mo>−</mo><msub><mi>x</mi><mn>0</mn></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">f(x)-f(x_{0})\geq c(x-x_{0})
@@ -161,8 +161,8 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
     </entry>
     <entry>
         <title type="html"><![CDATA[2020美赛的柠檬水]]></title>
-        <id>https://xwang20.github.io/post/2020-mei-sai-de-ning-meng-shui/</id>
-        <link href="https://xwang20.github.io/post/2020-mei-sai-de-ning-meng-shui/">
+        <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/2020-mei-sai-de-ning-meng-shui/</id>
+        <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/2020-mei-sai-de-ning-meng-shui/">
         </link>
         <updated>2020-03-23T15:26:09.000Z</updated>
         <summary type="html"><![CDATA[<p>总的来讲，我觉得这次比赛的过程并不算痛苦，建模和编程的情况良好，不过写作的过程...还是让人觉得有点难受。</p>
@@ -173,7 +173,7 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 <p>可以从下面的“工作量评估”看到，作为编程的我承担了相当大一部分的写作工作。</p>
 <p>这跟我们团队的时间协调上有着不可切割的关系。</p>
 <!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://xwang20.github.io/post-images/1601652412766.PNG" alt="时间线" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post-images/1601652412766.PNG" alt="时间线" loading="lazy"></figure>
 <h1 id="时间线">时间线</h1>
 <h2 id="美赛前期">美赛前期？</h2>
 <p>2020年3月6日6点到3月10日9点，提交时间不超过10点。</p>
@@ -246,8 +246,8 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
     </entry>
     <entry>
         <title type="html"><![CDATA[社会公器下的文化批判]]></title>
-        <id>https://xwang20.github.io/post/she-hui-gong-qi-xia-de-wen-hua-pi-pan/</id>
-        <link href="https://xwang20.github.io/post/she-hui-gong-qi-xia-de-wen-hua-pi-pan/">
+        <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/she-hui-gong-qi-xia-de-wen-hua-pi-pan/</id>
+        <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/she-hui-gong-qi-xia-de-wen-hua-pi-pan/">
         </link>
         <updated>2020-03-22T16:58:47.000Z</updated>
         <summary type="html"><![CDATA[<p>卢跃刚在香港中文大学新闻学院讲座时曾这样分析大陆传媒:</p>
@@ -308,8 +308,8 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
     </entry>
     <entry>
         <title type="html"><![CDATA[NOTES | 论文写作线上专题报告会]]></title>
-        <id>https://xwang20.github.io/post/notes-or-lun-wen-xie-zuo-xian-shang-zhuan-ti-bao-gao-hui/</id>
-        <link href="https://xwang20.github.io/post/notes-or-lun-wen-xie-zuo-xian-shang-zhuan-ti-bao-gao-hui/">
+        <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/notes-or-lun-wen-xie-zuo-xian-shang-zhuan-ti-bao-gao-hui/</id>
+        <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/notes-or-lun-wen-xie-zuo-xian-shang-zhuan-ti-bao-gao-hui/">
         </link>
         <updated>2020-03-17T05:20:24.000Z</updated>
         <summary type="html"><![CDATA[<p>Brief Intro: 由北京智源人工智能=<br>
@@ -396,8 +396,8 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
     </entry>
     <entry>
         <title type="html"><![CDATA[我学钢琴的那些年里]]></title>
-        <id>https://xwang20.github.io/post/wo-xue-gang-qin-de-na-xie-nian-li/</id>
-        <link href="https://xwang20.github.io/post/wo-xue-gang-qin-de-na-xie-nian-li/">
+        <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/wo-xue-gang-qin-de-na-xie-nian-li/</id>
+        <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/wo-xue-gang-qin-de-na-xie-nian-li/">
         </link>
         <updated>2020-02-29T16:12:26.000Z</updated>
         <summary type="html"><![CDATA[<p><strong>你相信人有天赋吗？</strong></p>
@@ -438,8 +438,8 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
     </entry>
     <entry>
         <title type="html"><![CDATA[NOTES | How to Read a Paper Efficiently (By Prof. Pete Carr)]]></title>
-        <id>https://xwang20.github.io/post/notes-or-how-to-read-a-paper-efficiently-by-prof-pete-carr/</id>
-        <link href="https://xwang20.github.io/post/notes-or-how-to-read-a-paper-efficiently-by-prof-pete-carr/">
+        <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/notes-or-how-to-read-a-paper-efficiently-by-prof-pete-carr/</id>
+        <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/notes-or-how-to-read-a-paper-efficiently-by-prof-pete-carr/">
         </link>
         <updated>2020-02-24T06:12:23.000Z</updated>
         <summary type="html"><![CDATA[<ul>
