@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com</id>
     <title>BANKRUPT</title>
-    <updated>2020-11-20T15:34:28.263Z</updated>
+    <updated>2020-11-21T13:07:35.500Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com"/>
     <link rel="self" href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/favicon.ico</icon>
     <rights>All rights reserved 2020, BANKRUPT</rights>
     <entry>
-        <title type="html"><![CDATA[记录一场面试]]></title>
+        <title type="html"><![CDATA[记录一场面试 | MSRA SIG]]></title>
         <id>https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/ji-lu-yi-chang-mian-shi/</id>
         <link href="https://coding-pages-bucket-3450216-7849192-5522-381801-1258297046.cos-website.ap-hongkong.myqcloud.com/post/ji-lu-yi-chang-mian-shi/">
         </link>
@@ -20,7 +20,7 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>本来不打算写，因为也很大概率不通过。但毕竟也是人生中第一段工作面试，恰好今晚上nlp组的面试突然被咕咕了(,,ԾㅂԾ,,)。</p>
 <!-- more -->
-<p>我是认为自己能力不够原有的方向过于小众，企业的研究岗可能不会要我。原打算转个方向努力申个外校的实验室(这又是另一段故事了)，努力开启新的研究生涯。</p>
+<p>我是认为自己能力不够➕原有的方向过于小众，企业的研究岗可能不会要我。原打算转个方向努力申个外校的实验室(这又是另一段故事了)，努力开启新的研究生涯。</p>
 <p>但是转机的一切，还是要从M同学从10月就开始准备算法实习开始说起。</p>
 <p>M同学从tx的子公司投到wxg，再从百度搜索投到抖音推荐组，没有一个组不想要他。17号时他突发奇想打算投MSRA（M: “反正都是要投的”），于是当天投，三个组的mentor就直接给他打了电话，隔天就进行了两个面试，第三天就接了offer，第四天就开始考虑该拒哪个组了。</p>
 <p>18号晚上，M同学对我说: szg再一次劝你投MSRA。</p>
@@ -34,7 +34,8 @@
 <li>“你在项目里担任了什么角色”</li>
 <li>“你什么时候有时间？我们可以约个正式面试”</li>
 </ul>
-<p>于是正式面试定在了19号的下午1点-2点。紧张死辽，当天晚上就回去复习算法和论文。</p>
+<p>于是正式面试定在了20号的下午1点-2点。紧张死辽，当天晚上就回去复习算法和论文。</p>
+<hr>
 <h1 id="正式面试">正式面试：</h1>
 <ul>
 <li>
@@ -120,6 +121,7 @@ Output: 3
 </ul>
 </li>
 </ul>
+<hr>
 <p>感觉姐姐还是很可爱的(●'◡'●)。过不了就算啦，还是感谢有这一段经历。</p>
 ]]></content>
     </entry>
