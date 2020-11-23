@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.xtopia.fun</id>
     <title>BANKRUPT</title>
-    <updated>2020-11-23T13:20:49.952Z</updated>
+    <updated>2020-11-23T13:23:22.161Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.xtopia.fun"/>
     <link rel="self" href="https://blog.xtopia.fun/atom.xml"/>
@@ -142,6 +142,7 @@
 <li>Feature Extraction 特征提取</li>
 <li>Sentiment Analysis 情感分析</li>
 </ul>
+<hr>
 <p>[1] Wang, Fengyu &amp; Carley, Kathleen &amp; Zeng, Daniel Dajun &amp; Mao, Wenji. (2007). Social Computing: From Social Informatics to Social Intelligence. Intelligent Systems, IEEE. 22. 79 - 83. 10.1109/MIS.2007.41.</p>
 <p>[2] ——, “Labeling images with a computer game,” inCHI, E. Dykstra-Erickson and M. Tscheligi, Eds. ACM, 2004, pp. 319–326.</p>
 <p>[3] L. von Ahn, B. Maurer, C. McMillen, D. Abraham, and M. Blum,“reCAPTCHA: Human-Based Character Recognition via Web Secu-rity Measures,”Science, vol. 321, no. 5895, p. 1465, 2008.</p>
