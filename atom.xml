@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.xtopia.fun</id>
     <title>BANKRUPT</title>
-    <updated>2020-11-24T03:22:48.093Z</updated>
+    <updated>2020-11-24T12:25:49.814Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.xtopia.fun"/>
     <link rel="self" href="https://blog.xtopia.fun/atom.xml"/>
@@ -10,6 +10,97 @@
     <logo>https://blog.xtopia.fun/images/avatar.png</logo>
     <icon>https://blog.xtopia.fun/favicon.ico</icon>
     <rights>All rights reserved 2020, BANKRUPT</rights>
+    <entry>
+        <title type="html"><![CDATA[当我开始做PPT时，我在想什么]]></title>
+        <id>https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/</id>
+        <link href="https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/">
+        </link>
+        <updated>2020-11-24T12:04:49.000Z</updated>
+        <content type="html"><![CDATA[<p>回想起大一第一次帮室友做ppt的时候，那都是很早以前了。</p>
+<figure data-type="image" tabindex="1"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/Steven.gif" alt="Steven" loading="lazy"></figure>
+<p>自私的认为这两年来我也因为PPT获得了不少红利，这里也分享一下自己的想法，希望能够有所帮助。</p>
+<h1 id="形式">形式</h1>
+<h2 id="主题-subjects">主题 Subjects</h2>
+<p>当接到一份“任务”时，首先考虑的是要展示的主题，以便确定之后的思路。</p>
+<p>举个栗子：如果是工作类汇报，则尽可能选择简单清晰的、助于理解的展示方式；</p>
+<figure data-type="image" tabindex="2"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/architecture.jpg" alt="architecture" loading="lazy"></figure>
+<p>若是项目答辩类，尤其是想“吹”时，则尽可能将ppt做得宏观，以便唬得住评委，但也不可过于高调，否则可能会让评委怀疑有作假；若是展示，则做得花里胡哨更好，让看过的人只说🐂🍺就行。</p>
+<p>例如我曾在一个答辩中加入了视频背景：</p>
+<figure data-type="image" tabindex="3"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/%E6%94%AF%E6%95%99%E9%98%9F%E7%AD%94%E8%BE%A9.gif" alt="支教队答辩" loading="lazy"></figure>
+<h2 id="配色-colors">配色 Colors</h2>
+<p>配色是确定整体基调的方式。</p>
+<p>我个人认为的话，一般来说，白色调更适合表达清晰，而黑色调更适合装逼。[但是<strong>黑色底需要要考虑展示屏幕是否是投影</strong>（因为投影不会将黑色投影出来）]</p>
+<p>不同的颜色也会给人不同的基调感受。例如绿色常出现在医疗行业，黄色则更轻松愉快，蓝色更加商务性质。</p>
+<p>考虑完基调以后，则需要确定具体的颜色搭配。要考虑的主要颜色则有3种类型：</p>
+<ul>
+<li>背景色</li>
+<li>字体色</li>
+<li>强调色</li>
+</ul>
+<p>无论是同色系/撞色系/渐变色系，都是可以的。如何搭配出让人舒适的色调也是一种学问，因此也有相当多的资源关注在配色上，这里推荐几个常用的配色网站：</p>
+<ul>
+<li><a href="https://webgradients.com/">WebGradients</a>：itmeo旗下180个漂亮渐变色模板</li>
+<li><a href="http://www.colorhunt.co/">Color Hunt</a>：每天更新一组简洁舒服的配色方案</li>
+<li><a href="https://color.adobe.com/create">Adobe Color</a>：Adobe专业配色工具</li>
+<li><a href="http://www.colorfavs.com/">Colorfavs</a>：上传并匹配提取图片风格的颜色</li>
+</ul>
+<h2 id="字体-fonts">字体 Fonts</h2>
+<p>一般在两类左右比较好。一般标题用衬线类/艺术类，内容用非衬线类。</p>
+<figure data-type="image" tabindex="4"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124200820.png" alt="" loading="lazy"></figure>
+<p>Adobe出品的web在线字库：<a href="https://fonts.adobe.com/">https://fonts.adobe.com/</a></p>
+<h2 id="布局-layout">布局 Layout</h2>
+<p>布局需要注意的点很多：</p>
+<ul>
+<li>一页不能放太多元素，否则会让人抓不到重点</li>
+<li>突出你想要突出的东西</li>
+<li>...</li>
+</ul>
+<p>但其实总的来说，就四个原则，<strong>亲密性</strong>、<strong>对齐</strong>、<strong>重复</strong>、<strong>对比</strong>，出自《<a href="https://book.douban.com/subject/3323633/">写给大家看的设计书</a>》：</p>
+<ul>
+<li>亲密性：将相关项组织在一起。在一个页面上，位置接近就意味存在着关联。因此相关的项应当靠近，归组在一起。</li>
+</ul>
+<figure data-type="image" tabindex="5"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124200907.png" alt="" loading="lazy"></figure>
+<ul>
+<li>对齐：每个元素都应当与页面上的另一个元素有某种视觉联系。</li>
+</ul>
+<figure data-type="image" tabindex="6"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124200952.png" alt="" loading="lazy"></figure>
+<p>图片来源：<a href="https://zhuanlan.zhihu.com/p/50128485">https://zhuanlan.zhihu.com/p/50128485</a></p>
+<ul>
+<li>重复：让视觉要素在整个作品中重复，能够实现整个PPT风格的统一，包括统一颜色方案、字体字号、文本行距、项目符号、图表风格、对齐方式、图片风格，或者一种特别的字体。</li>
+</ul>
+<figure data-type="image" tabindex="7"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124201034.png" alt="" loading="lazy"></figure>
+<p>图片来源：<a href="https://zhuanlan.zhihu.com/p/37628295">https://zhuanlan.zhihu.com/p/37628295</a></p>
+<ul>
+<li>对比：如果页面上的元素不相同，那就干脆让它们截然不同，以吸引读者眼球。</li>
+</ul>
+<figure data-type="image" tabindex="8"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124201059.png" alt="" loading="lazy"></figure>
+<p>图片来源：<a href="https://zhuanlan.zhihu.com/p/37628534">https://zhuanlan.zhihu.com/p/37628534</a></p>
+<p>说难也不算难，但到实际操作就完全是两码事。</p>
+<p>所以我这里建议：想好一张要放什么模块，直接找好看的模板/大佬做的排版照着抄布局就🆗。</p>
+<h2 id="动画-animations">动画 Animations</h2>
+<p>这里尤其要说一下我最喜欢的平滑切换，可以把两张看似毫不相关的slide联系起来。</p>
+<p>具体操作可以看：<a href="https://www.bilibili.com/video/av38021175">PPT动画-圆形剪断拉成直线</a></p>
+<p>动画有助于让演讲更有逻辑。不过个人感觉如果不影响展示，动画能省就省（主要是麻烦）。如果是答辩/展示类，可以考虑一下加一些动画。</p>
+<p>现在也有很多和动画有关的插件，可以简单实现一些复杂度稍微高一些的动画，例如：</p>
+<p>PA动画：<a href="https://www.papocket.com/">https://www.papocket.com/</a></p>
+<h2 id="其它资源-resources">其它资源 Resources</h2>
+<ul>
+<li>图标：图标我只用<a href="https://www.iconfont.cn/">iconfont</a></li>
+<li>视频：<a href="https://www.videezy.com/">https://www.videezy.com/</a></li>
+<li>插画：<a href="https://undraw.co/illustrations">unDraw</a></li>
+<li>图片：<a href="https://unsplash.com/">Unsplash</a>yyds，除此以外还有<a href="https://www.pexels.com/">pexels</a>、<a href="https://pixabay.com/zh/">pixabay</a></li>
+<li>插件：islide</li>
+<li>模板：<a href="https://slidesgo.com/">https://slidesgo.com/</a></li>
+<li>灵感搜集：Behance、dribble、zcool、muzli...</li>
+<li>自媒体：阿文、珞珈、旁门左道PPT、演说洞见、观海PPT...</li>
+</ul>
+<h1 id="内容">内容</h1>
+<p>个人认为ppt内容永远是大于形式的。内容也更需要积淀和积累，建议多看演讲的艺术。</p>
+<h1 id="如何快速糊">如何快速糊</h1>
+<p>很简单，找到好的模板上去套。</p>
+<p>但是一定要注意布局的四个原则：<strong>亲密性</strong>、<strong>对齐</strong>、<strong>重复</strong>、<strong>对比</strong>。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NOTES | A Brief Survey of Computational Approaches in Social Computing]]></title>
         <id>https://blog.xtopia.fun/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/</id>
