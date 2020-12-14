@@ -3,7 +3,7 @@
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>NOTES | 信息素养——学术研究的必修课 | BANKRUPT</title>
-<link rel="shortcut icon" href="https://blog.xtopia.fun/favicon.ico?v=1607947954504">
+<link rel="shortcut icon" href="https://blog.xtopia.fun/favicon.ico?v=1607949859178">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.xtopia.fun/styles/main.css">
 <link rel="alternate" type="application/atom+xml" title="NOTES | 信息素养——学术研究的必修课 | BANKRUPT - Atom Feed" href="https://blog.xtopia.fun/atom.xml">
@@ -38,7 +38,12 @@
     <meta name="keywords" content="Notes,Academic" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
     <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!--Leancloud 操作库:-->
+      <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+      <!--Valine 的核心代码库-->
+      <script src="/media/scripts/Valine.min.js"></script>
+
 <style>
 	div#vcomments{
 		width:100%;
@@ -52,7 +57,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://blog.xtopia.fun">
-  <img class="avatar" src="https://blog.xtopia.fun/images/avatar.png?v=1607947954504" alt="">
+  <img class="avatar" src="https://blog.xtopia.fun/images/avatar.png?v=1607949859178" alt="">
   </a>
   <h1 class="site-title">
     BANKRUPT
@@ -500,17 +505,22 @@
 
         
 
-<div id="vcomments"></div>
-    <script>
-        new Valine({
-            el: '#vcomments',
-            appId: '0glHbQOVYrwnrCDsjkeXG0CQ-gzGzoHsz',
-            appKey: 'ev2DY4ktRLwNGlTD3VT3bkSS',
-	placeholder: 'Write a Comment',
-        max_nest: 3,					// 嵌套评论深度，太大会影响加载速度
-        page_size: 5					// 分页大小
-        })
-    </script>
+
+      <div class="comment"></div>
+      <script>
+          new Valine({
+              // AV 对象来自上面引入av-min.js
+              av: AV, 
+              el: '.comment',
+              lang: 'zh-cn',//设置评论语言
+              app_id: '0glHbQOVYrwnrCDsjkeXG0CQ-gzGzoHsz',			    										   	
+              app_key: 'ev2DY4ktRLwNGlTD3VT3bkSS',    										      
+              placeholder: 'Write a comment',  // 提示符
+              max_nest: 2,					// 嵌套评论深度，太大会影响加载速度
+              page_size: 5,					// 分页大小
+              admin_email_hash: 'E34BB1603123E447A50013809D88A11F' // 可选，管理员邮箱md5，用于显示管理员标志👮‍
+          });
+      </script>   
 
         <div class="site-footer">
   此处是通往何方的小道. 
