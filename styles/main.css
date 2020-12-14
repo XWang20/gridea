@@ -211,6 +211,47 @@ progress {
 summary {
   display: list-item;
 }
+.friend-box {
+  float: left;
+  max-width: calc(50% - 20px);
+  min-width: calc(50% - 20px);
+  margin: 15px 10px;
+  background-color: rgba(152, 149, 155, 0.05);
+  padding: 15px;
+  border-radius: 10px;
+}
+.friend-box img.friend-avatar {
+  border-radius: 50% !important;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: 0 15px 0 0 !important;
+}
+.friend-box .flink-info {
+  height: 80px;
+  overflow: hidden;
+  line-height: 24px;
+  padding-left: 30px;
+  font-size: 14px;
+}
+.friend-box .flink-info a {
+  font-size: 18px;
+  background: linear-gradient(180deg, transparent 75%, rgba(152, 149, 155, 0.4) 0);
+  margin-bottom: 10px;
+}
+.friend-box .flink-info .flink-info-desc {
+  margin-top: 10px;
+}
+@media (max-width: 993px) {
+  .friend-box {
+    max-width: 90% !important;
+  }
+}
+@media (max-width: 465px) {
+  .flink-info-desc {
+    display: none;
+  }
+}
 *,
 *:before,
 *:after {
