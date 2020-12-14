@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.xtopia.fun</id>
     <title>BANKRUPT</title>
-    <updated>2020-12-14T06:52:23.892Z</updated>
+    <updated>2020-12-14T06:59:23.786Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.xtopia.fun"/>
     <link rel="self" href="https://blog.xtopia.fun/atom.xml"/>
@@ -356,97 +356,6 @@
 <figure data-type="image" tabindex="8"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/2020-12-01-103038.png" alt="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/2020-12-01-103038.png" loading="lazy"></figure>
 <p>视频中以Refworks为例介绍了网络版数据库的使用，以Endnote和NoteExpress为例介绍了桌面版数据库的使用。</p>
 <p>也涉及到了邮箱订阅和RSS、云笔记、文本分析和可视化</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[当我开始做PPT时，我在想什么]]></title>
-        <id>https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/</id>
-        <link href="https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/">
-        </link>
-        <updated>2020-11-24T12:04:49.000Z</updated>
-        <content type="html"><![CDATA[<p>回想起大一第一次帮室友做ppt的时候，那都是很早以前了。</p>
-<figure data-type="image" tabindex="1"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/Steven.gif" alt="Steven" loading="lazy"></figure>
-<p>自私的认为这两年来我也因为PPT获得了不少红利，这里也分享一下自己的想法，希望能够有所帮助。</p>
-<h1 id="形式">形式</h1>
-<h2 id="主题-subjects">主题 Subjects</h2>
-<p>当接到一份“任务”时，首先考虑的是要展示的主题，以便确定之后的思路。</p>
-<p>举个栗子：如果是工作类汇报，则尽可能选择简单清晰的、助于理解的展示方式；</p>
-<figure data-type="image" tabindex="2"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/architecture.jpg" alt="architecture" loading="lazy"></figure>
-<p>若是项目答辩类，尤其是想“吹”时，则尽可能将ppt做得宏观，以便唬得住评委，但也不可过于高调，否则可能会让评委怀疑有作假；若是展示，则做得花里胡哨更好，让看过的人只说🐂🍺就行。</p>
-<p>例如我曾在一个答辩中加入了视频背景：</p>
-<figure data-type="image" tabindex="3"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/%E6%94%AF%E6%95%99%E9%98%9F%E7%AD%94%E8%BE%A9.gif" alt="支教队答辩" loading="lazy"></figure>
-<h2 id="配色-colors">配色 Colors</h2>
-<p>配色是确定整体基调的方式。</p>
-<p>我个人认为的话，一般来说，白色调更适合表达清晰，而黑色调更适合装逼。[但是<strong>黑色底需要要考虑展示屏幕是否是投影</strong>（因为投影不会将黑色投影出来）]</p>
-<p>不同的颜色也会给人不同的基调感受。例如绿色常出现在医疗行业，黄色则更轻松愉快，蓝色更加商务性质。</p>
-<p>考虑完基调以后，则需要确定具体的颜色搭配。要考虑的主要颜色则有3种类型：</p>
-<ul>
-<li>背景色</li>
-<li>字体色</li>
-<li>强调色</li>
-</ul>
-<p>无论是同色系/撞色系/渐变色系，都是可以的。如何搭配出让人舒适的色调也是一种学问，因此也有相当多的资源关注在配色上，这里推荐几个常用的配色网站：</p>
-<ul>
-<li><a href="https://webgradients.com/">WebGradients</a>：itmeo旗下180个漂亮渐变色模板</li>
-<li><a href="http://www.colorhunt.co/">Color Hunt</a>：每天更新一组简洁舒服的配色方案</li>
-<li><a href="https://color.adobe.com/create">Adobe Color</a>：Adobe专业配色工具</li>
-<li><a href="http://www.colorfavs.com/">Colorfavs</a>：上传并匹配提取图片风格的颜色</li>
-</ul>
-<h2 id="字体-fonts">字体 Fonts</h2>
-<p>一般在两类左右比较好。一般标题用衬线类/艺术类，内容用非衬线类。</p>
-<figure data-type="image" tabindex="4"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124200820.png" alt="" loading="lazy"></figure>
-<p>Adobe出品的web在线字库：<a href="https://fonts.adobe.com/">https://fonts.adobe.com/</a></p>
-<h2 id="布局-layout">布局 Layout</h2>
-<p>布局需要注意的点很多：</p>
-<ul>
-<li>一页不能放太多元素，否则会让人抓不到重点</li>
-<li>突出你想要突出的东西</li>
-<li>...</li>
-</ul>
-<p>但其实总的来说，就四个原则，<strong>亲密性</strong>、<strong>对齐</strong>、<strong>重复</strong>、<strong>对比</strong>，出自《<a href="https://book.douban.com/subject/3323633/">写给大家看的设计书</a>》：</p>
-<ul>
-<li>亲密性：将相关项组织在一起。在一个页面上，位置接近就意味存在着关联。因此相关的项应当靠近，归组在一起。</li>
-</ul>
-<figure data-type="image" tabindex="5"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124200907.png" alt="" loading="lazy"></figure>
-<ul>
-<li>对齐：每个元素都应当与页面上的另一个元素有某种视觉联系。</li>
-</ul>
-<figure data-type="image" tabindex="6"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124200952.png" alt="" loading="lazy"></figure>
-<p>图片来源：<a href="https://zhuanlan.zhihu.com/p/50128485">https://zhuanlan.zhihu.com/p/50128485</a></p>
-<ul>
-<li>重复：让视觉要素在整个作品中重复，能够实现整个PPT风格的统一，包括统一颜色方案、字体字号、文本行距、项目符号、图表风格、对齐方式、图片风格，或者一种特别的字体。</li>
-</ul>
-<figure data-type="image" tabindex="7"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124201034.png" alt="" loading="lazy"></figure>
-<p>图片来源：<a href="https://zhuanlan.zhihu.com/p/37628295">https://zhuanlan.zhihu.com/p/37628295</a></p>
-<ul>
-<li>对比：如果页面上的元素不相同，那就干脆让它们截然不同，以吸引读者眼球。</li>
-</ul>
-<figure data-type="image" tabindex="8"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20201124201059.png" alt="" loading="lazy"></figure>
-<p>图片来源：<a href="https://zhuanlan.zhihu.com/p/37628534">https://zhuanlan.zhihu.com/p/37628534</a></p>
-<p>说难也不算难，但到实际操作就完全是两码事。</p>
-<p>所以我这里建议：想好一张要放什么模块，直接找好看的模板/大佬做的排版照着抄布局就🆗。</p>
-<h2 id="动画-animations">动画 Animations</h2>
-<p>这里尤其要说一下我最喜欢的平滑切换，可以把两张看似毫不相关的slide联系起来。</p>
-<p>具体操作可以看：<a href="https://www.bilibili.com/video/av38021175">PPT动画-圆形剪断拉成直线</a></p>
-<p>动画有助于让演讲更有逻辑。不过个人感觉如果不影响展示，动画能省就省（主要是麻烦）。如果是答辩/展示类，可以考虑一下加一些动画。</p>
-<p>现在也有很多和动画有关的插件，可以简单实现一些复杂度稍微高一些的动画，例如：</p>
-<p>PA动画：<a href="https://www.papocket.com/">https://www.papocket.com/</a></p>
-<h2 id="其它资源-resources">其它资源 Resources</h2>
-<ul>
-<li>图标：图标我只用<a href="https://www.iconfont.cn/">iconfont</a></li>
-<li>视频：<a href="https://www.videezy.com/">https://www.videezy.com/</a></li>
-<li>插画：<a href="https://undraw.co/illustrations">unDraw</a></li>
-<li>图片：<a href="https://unsplash.com/">Unsplash</a>yyds，除此以外还有<a href="https://www.pexels.com/">pexels</a>、<a href="https://pixabay.com/zh/">pixabay</a></li>
-<li>插件：islide</li>
-<li>模板：<a href="https://slidesgo.com/">https://slidesgo.com/</a></li>
-<li>灵感搜集：Behance、dribble、zcool、muzli...</li>
-<li>自媒体：阿文、珞珈、旁门左道PPT、演说洞见、观海PPT...</li>
-</ul>
-<h1 id="内容">内容</h1>
-<p>个人认为ppt内容永远是大于形式的。内容也更需要积淀和积累，建议多看演讲的艺术。</p>
-<h1 id="如何快速糊">如何快速糊</h1>
-<p>很简单，找到好的模板上去套。</p>
-<p>但是一定要注意布局的四个原则：<strong>亲密性</strong>、<strong>对齐</strong>、<strong>重复</strong>、<strong>对比</strong>。</p>
 ]]></content>
     </entry>
     <entry>
@@ -1091,6 +1000,48 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 </ul>
 </li>
 </ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我学钢琴的那些年里]]></title>
+        <id>https://blog.xtopia.fun/post/wo-xue-gang-qin-de-na-xie-nian-li/</id>
+        <link href="https://blog.xtopia.fun/post/wo-xue-gang-qin-de-na-xie-nian-li/">
+        </link>
+        <updated>2020-02-29T16:12:26.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>你相信人有天赋吗？</strong></p>
+<p>记得在很长一段时间里，我是相当怀疑“天赋”这种东西的。</p>
+<p>随着年龄的增长，发现好像几乎所有的能力都与后天经历产生着实实在在的联系。能够从一个人的语言行为去寻因导果，推测或许跟他的某些经历有关系。反而像“天赋”这种东西变得更虚无缥缈，开始问“真的有xx人天生更适合xx吗？”这样的问题。</p>
+<p>但你又不得不承认，天赋这种东西确确实实存在。<br>
+当感受到它时，又确确实实羡慕嫉妒。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>你相信人有天赋吗？</strong></p>
+<p>记得在很长一段时间里，我是相当怀疑“天赋”这种东西的。</p>
+<p>随着年龄的增长，发现好像几乎所有的能力都与后天经历产生着实实在在的联系。能够从一个人的语言行为去寻因导果，推测或许跟他的某些经历有关系。反而像“天赋”这种东西变得更虚无缥缈，开始问“真的有xx人天生更适合xx吗？”这样的问题。</p>
+<p>但你又不得不承认，天赋这种东西确确实实存在。<br>
+当感受到它时，又确确实实羡慕嫉妒。</p>
+<!-- more -->
+<h1 id="beginning">Beginning</h1>
+<p>说实话，我并没有弹钢琴的天赋。</p>
+<p>从小学一年级开始学钢琴，到五年级时考过8级，初中的时候就暂时停止练琴了。依我现在的观点来看，如果说钢琴的基础是“流畅”，进阶是“理解”，高级是“表达”，那我那时顶多到达了基础阶段。即使我现在依然保持着“小孩子很难去理解一首曲子”的观点，但我也不得不承认，确实有一些具有天赋的人，天生就有着“理解”和“表达”的能力，能够把自己的情感投入到一首曲子的演奏当中，他们对音乐的敏感程度天生就很高。</p>
+<p>我还记得那会儿，一年级的时候在琴房里跟朋友争论“上海跟北京哪个更远”，三年级的夏天因一首《庆翻身》的节奏不准确，小学的音乐老师没有让我上台演奏（整个小学弹钢琴的可能也就几个人），五年级的春天不想练琴，被老师打了好几顿，在六年级的秋天选择了我一辈子都不会忘记的曲子 ——《彩云追月》。</p>
+<p>那会儿我特别不喜欢肖邦，虽然我现在明白那种“不喜欢”只是一种固执；我喜欢莫扎特，每年必会弹上一首；巴赫的复调独树一帜，永远也避不开；贝多芬的曲子都太难，往往都接触不到。</p>
+<p>我们每年都会有琴行的演出，我每年都作为那个“最老”&amp;“弹得最好”的人上场。那会儿我可骄傲了，放眼我的所有朋友圈，没几个人会弹钢琴，即使有，那也没我弹得好。</p>
+<h1 id="pause">Pause</h1>
+<p>停止的原因是，上初中，学校离得太远，学业负担加重，没时间每天花一个小时坐在琴前，安心练琴。</p>
+<p>整个初中带给我完全不一样的感受，我并不是走的艺体生，但一个班里会弹钢琴的人并不少，考过10级的比比皆是，我也不过泯然众人。那时候我才明白，原来并不是曾经的我很优秀，只是环境使然罢了。</p>
+<p>初中带给我的并不只是练琴的“暂停”，还有对“感受音乐”的暂停。我那会儿特别喜欢二次元，听了很多很多日语歌曲，也只是通过感官去感受音乐的好听与坏。</p>
+<h1 id="restart">Restart</h1>
+<p>再一次开始是在初中毕业。我的中考全线崩盘，那个暑假，我跟爸妈说：“在家里买个琴吧，我想练。”父母还挺开心的，本以为我讨厌钢琴，想要完全放弃它。于是他们买了112m的YAMAHA，我觉得音量大小也并无所谓，所以即使便宜也便接受了。</p>
+<p>我挣脱了考级的束缚，只练习那几年我心心念念却未能接触到的曲子：《致爱丽丝》、《梦中的婚礼》。再后来，我去了绵阳读高中，回家的次数寥寥无几，因此练琴便也搁浅了。</p>
+<p>后来练琴的热情也渐渐消停了，不过我记得我还是尝试了很多：《秋日私语》、《City of Star》、《水边的阿迪丽娜》，我还把几年前弹过的《谷粒飞舞》、《彩云追月》拿出来练过。说实话，这些都是很简单很简单的曲子，但却很好听，而好听的同时又好像缺少了点什么（或许是难度高的曲子本身更有亮点？）。</p>
+<h1 id="now">Now</h1>
+<p>我又开始练琴了。</p>
+<p>因为疫情的爆发，每天在家，开学也延迟了。我爱上了<em>Sonatine bureaucratique</em>，Erik Satie真是天才，他能够把情绪捏造的那么到位。感官与音乐共鸣的感觉，众神把你的灵魂撕裂的感觉，那种原生的，动物性的，能够引发颅内高潮的东西，那种迷人的，让人眷恋的。</p>
+<p>我每天花一个小时练<em>Sonatine bureaucratique</em>，他并不难，但我还是依然在面临着“理解”与“表达”的问题，或许这种问题会伴随我弹钢琴的一生。但其实没关系，如果你觉得做这件事是一种享受，即使做的不好，你也依旧可以继续做。</p>
+<h1 id="结语">结语</h1>
+<p>老爸说，弹钢琴让我养成了专注的习惯。我觉得不然，因为我在做其他事情时依然无法集中注意力。如果一定要说它带给了我什么，我觉得可能是“在弹琴的时候能够有思考的能力”，你可以在弹琴的时候奇思妙想，可以反思每一天的生活，可以去想象另一种世界，可以对每天发生的时政有自己的思考，这种留给你的特定时间段是一件很奇妙的事，就仿佛与这个时空发生了裂痕，掉入了另一个不需要焦虑、不需要担忧的平行世界。</p>
+<p>后来我知道，这叫做“一段完全安静和属于自己的时间中和自己独处”，一种“高度专注的心流状态”。</p>
+<p>钢琴真的是一件太迷人的东西，只是88个键，却足以表达人类的悲欢离合喜怒哀乐。它的门槛不高，但上限却足够不低，它拥有着独特的生命力和感染力，让每一个人都曾流连忘返。</p>
 ]]></content>
     </entry>
 </feed>
