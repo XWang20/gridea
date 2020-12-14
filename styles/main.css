@@ -248,7 +248,7 @@ summary {
     min-width: 90% !important;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 375px) {
   .flink-info-desc {
     display: none;
   }
