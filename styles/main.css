@@ -245,9 +245,10 @@ summary {
 @media (max-width: 993px) {
   .friend-box {
     max-width: 90% !important;
+    min-width: 90% !important;
   }
 }
-@media (max-width: 465px) {
+@media (max-width: 400px) {
   .flink-info-desc {
     display: none;
   }
