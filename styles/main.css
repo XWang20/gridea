@@ -855,6 +855,9 @@ td {
   color: #006CFF;
   background: #fafafa;
 }
+.vsys {
+  display: none !important;
+}
 @media (max-width: 600px) {
   .post-detail .post {
     padding: 16px;
