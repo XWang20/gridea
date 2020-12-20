@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.xtopia.fun</id>
     <title>BANKRUPT</title>
-    <updated>2020-12-20T12:39:46.223Z</updated>
+    <updated>2020-12-20T12:46:05.218Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.xtopia.fun"/>
     <link rel="self" href="https://blog.xtopia.fun/atom.xml"/>
@@ -651,6 +651,60 @@ Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224
 ]]></content>
     </entry>
     <entry>
+        <title type="html"><![CDATA[PPT资源分享]]></title>
+        <id>https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/</id>
+        <link href="https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/">
+        </link>
+        <updated>2020-11-24T12:04:49.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="颜色-colors">颜色 Colors</h2>
+<ul>
+<li><a href="https://webgradients.com/">WebGradients</a>：itmeo旗下180个漂亮渐变色模板</li>
+<li><a href="http://www.colorhunt.co/">Color Hunt</a>：每天更新一组简洁舒服的配色方案</li>
+<li><a href="https://color.adobe.com/create">Adobe Color</a>：Adobe专业配色工具</li>
+<li><a href="http://www.colorfavs.com/">Colorfavs</a>：上传并匹配提取图片风格的颜色</li>
+</ul>
+<h2 id="字体-fonts">字体 Fonts</h2>
+<ul>
+<li><a href="https://fonts.adobe.com/">Typekit</a>：Adobe出品的web在线字库</li>
+<li><a href="https://developer.apple.com/fonts/">苹方字体</a>：苹果最新的系统界面字体San Francisco</li>
+</ul>
+<h2 id="图标-icon">图标 Icon</h2>
+<ul>
+<li><a href="https://www.iconfont.cn/"><code>iconfont</code></a>：阿里团队图标字体及图标素材下载平台</li>
+<li><a href="https://thenounproject.com/">Icons and Photos For Everything</a>：高质量图标下载</li>
+<li><a href="https://icomoon.io/">icomoon</a>：矢量图打包成图标字体的技术平台</li>
+<li><a href="https://www.easyicon.net/language.en/">Easyicon</a>：图标搜索大全</li>
+</ul>
+<h2 id="插画-illustration">插画 Illustration</h2>
+<ul>
+<li><a href="https://undraw.co/illustrations"><code>unDraw</code></a>：免费的UI界面，场景，人物可换颜色插画</li>
+<li><a href="https://www.drawkit.io/">DrawKit</a>：Beautiful free illustrations</li>
+<li><a href="https://iradesign.io/">IRA Design</a>：Build your own amazing illustrations</li>
+<li><a href="https://absurd.design/">Absurd Design</a>：Free Surrealist Illustrations and Vector Art</li>
+<li><a href="http://www.irasuton.com/"><code>いらすとん</code></a>： ゆるかわいい無料イラスト素材集</li>
+</ul>
+<h2 id="模版">模版</h2>
+<ul>
+<li><a href="http://www.officeplus.cn/Template/Home.shtml">OfficePLUS</a>：微软Office官方在线模板网站！</li>
+<li><a href="http://www.pooban.com/">扑奔网</a>：Office文档资源分享平台</li>
+<li><a href="http://www.pptfans.cn/">PPT设计教程网</a>：提供高质量的PPT教程和PPT模板下载</li>
+<li><a href="http://www.ypppt.com/">优品PPT</a>：PPT模板下载_免费PPT模板下载_精美免费PPT模板下载</li>
+<li><a href="http://www.tretars.com/"><code>逼格PPT</code></a>：免费ppt模板下载_免费ppt模板_ppt模板</li>
+<li><a href="https://slidesgo.com/"><code>Slidesgo</code></a>：Free Google Slides themes and Powerpoint templates</li>
+</ul>
+<h2 id="其他-others">其他 Others</h2>
+<ul>
+<li>视频：<a href="https://www.videezy.com/">https://www.videezy.com/</a></li>
+<li>插件：islide、papocket...</li>
+<li>灵感搜集：Behance、dribble、zcool、muzli...</li>
+<li>自媒体：阿文、珞珈、旁门左道PPT、演说洞见、观海PPT...</li>
+<li><a href="https://duotone.shapefactory.co/">Duotone</a>：单色图片生成</li>
+<li><a href="https://photomosh.com/">PHOTOMOSH</a>：故障生成</li>
+<li><a href="https://patterninja.com/">Patterninja</a>：图标背景生成</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[NOTES | A Brief Survey of Computational Approaches in Social Computing]]></title>
         <id>https://blog.xtopia.fun/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/</id>
         <link href="https://blog.xtopia.fun/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/">
@@ -1095,91 +1149,6 @@ c100.7 8.3 195.3 44 280 108 55.3 42 101.7 93 139 153l9 14c2.7-4 5.7-8.7 9-14
 [1] <a href="https://zhuanlan.zhihu.com/p/82622940">机器学习 | 近端梯度下降法 (proximal gradient descent)</a><br>
 [2] <a href="https://angms.science/doc/CVX/ISTA0.pdf">(Graphical) Derivation of the soft thresholding operator</a><br>
 [3] <a href="https://zh.wikipedia.org/wiki/%E6%AC%A1%E5%AF%BC%E6%95%B0">维基百科-次导数</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2020美赛的柠檬水]]></title>
-        <id>https://blog.xtopia.fun/post/2020-mei-sai-de-ning-meng-shui/</id>
-        <link href="https://blog.xtopia.fun/post/2020-mei-sai-de-ning-meng-shui/">
-        </link>
-        <updated>2020-03-23T15:26:09.000Z</updated>
-        <summary type="html"><![CDATA[<p>总的来讲，我觉得这次比赛的过程并不算痛苦，建模和编程的情况良好，不过写作的过程...还是让人觉得有点难受。</p>
-<p>可以从下面的“工作量评估”看到，作为编程的我承担了相当大一部分的写作工作。</p>
-<p>这跟我们团队的时间协调上有着不可切割的关系。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>总的来讲，我觉得这次比赛的过程并不算痛苦，建模和编程的情况良好，不过写作的过程...还是让人觉得有点难受。</p>
-<p>可以从下面的“工作量评估”看到，作为编程的我承担了相当大一部分的写作工作。</p>
-<p>这跟我们团队的时间协调上有着不可切割的关系。</p>
-<!-- more -->
-<figure data-type="image" tabindex="1"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/1601652412766.PNG" alt="时间线" loading="lazy"></figure>
-<h1 id="时间线">时间线</h1>
-<h2 id="美赛前期">美赛前期？</h2>
-<p>2020年3月6日6点到3月10日9点，提交时间不超过10点。</p>
-<p>我们甚至连截至的时间都没有确定好。我的一个队友C一直以为由于ET的调整(美赛是EST并不影响)，提交时间提前了一个小时，以至于到最后急急忙忙的，本来有可以用来修改论文的机会也没能够抓住，还造成了很多不愉快。</p>
-<p>我们的队伍也没有做时间的规划。我觉得这个相对来说能够理解，因为我和队友C的数模经历都不是很顺利，不太敢去压缩建模的时间，认为“最好情况”和“最差情况”都是有可能出现的，因此总觉得比赛期间的ddl是没有太大意义的。</p>
-<h2 id="美赛过程">美赛过程？</h2>
-<h3 id="第一天">第一天</h3>
-<p>我们在上一轮最后就几乎确定了“大概率C题&quot;。</p>
-<p>不过这次刚拿到题发现<a href="http://www.mathmodels.org/Problems/2020/MCM-C/index.html">C</a>和nlp有关系的时候还是有点动摇(我几乎没碰过nlp)，因此还是将BC都纳入了考虑。</p>
-<p>真正确定C在我有了C第一题的完整思路，下午四点钟的样子。</p>
-<p>第一天几乎是在找资料中度过的，我看了kaggle上和“reviews-ratings”相关的比赛，一些可视化的项目，找了一些nlp的库。</p>
-<p>那时候我还不知道，其实NLP哪是难点阿，NLP只是门槛罢了。</p>
-<h3 id="第二天">第二天</h3>
-<p>第二题起来把数据清洗+第一题用jupyter写了(代码+注释)，第三天早上才反应过来其实是有漏洞的(埋 下 伏 笔)。( -&gt; 我很少写代码加注释(因为一般都是自己写自己用)，为了美赛改掉了自己的习惯T T。)</p>
-<p>完成了以后上传到notion。队友C看了以后跟队友A说：我发现有一些问题，不能跟wx讲。(也就是之前的漏洞)。</p>
-<p>其实这个时候我们之间沟通就出现了很大的裂痕了。晚上他俩在讲建模...说实话我觉得队友C提出的模型都莫名其妙的...</p>
-<h3 id="第三天">第三天</h3>
-<p>早晨才发现了第二天的漏洞，于是找方法修改。</p>
-<p>这一天我和队友A完成了大部分的建模+编程求解。</p>
-<p>我觉得这个速度其实很ok。</p>
-<p>不过很奇怪的是队友C一直关注于他的e小问，直接把我们的写作时间往后压缩。</p>
-<h3 id="第四天">第四天</h3>
-<p>白天就完成了所有的建模+编程。不过很奇怪的是，写作的东西一直没怎么开始。</p>
-<p>最后大家一起写，我写了大部分的算法，队友A写了摘要和一部分算法。我写的部分占了40%，我们俩写的东西加起来比例超过了2/3。而那位主写作的同学...我无话可说。</p>
-<p>最后提交的时候还闹了一些小矛盾。</p>
-<h3 id="美赛过后">美赛过后？</h3>
-<p>我跟A一起吐槽了C有两天，我甚至还想开个批斗会。</p>
-<p>生气的问了C同学的看法，发现是C同学认为我们建模太慢。</p>
-<h1 id="总结">总结</h1>
-<h2 id="时间把控">时间把控</h2>
-<p>对于时间的把控上感觉除了巨大问题，“核心的论文”没有受到足够的重视。</p>
-<p>直接原因是第三天写作的队友C究极关注e题，将写作的时间往后延。</p>
-<p>根本原因还是没有一个合理的时间把控能力，没有提前规划，也没有在比赛期间意识到时间问题的严重性。</p>
-<h2 id="交流沟通">交流沟通</h2>
-<p>跟队友C的沟通完全脱节。</p>
-<p>可能跟云建模有关系，也跟和队友C的交流效率太低有关系。</p>
-<p>于是我跟队友A互相抱怨却又无能为力。T T</p>
-<h2 id="队友选择">队友选择</h2>
-<p>我不是很想把所有的问题归咎于队友C，毕竟他也不是故意的。</p>
-<p>但事实如此，团队中有一个不合适的人，足以让整个团队的努力都付诸东流。</p>
-<p>强求是没有好结果的！！</p>
-<p>个人感觉，我跟队友A的努力理论上是可以拿到一个好结果的(自信^^)。</p>
-<p>论文，是能够展示建模结果的唯一途径。</p>
-<h2 id="工具选择">工具选择</h2>
-<p>云建模三件套 --Grammarly，Notion，Overleaf。</p>
-<ul>
-<li>Grammarly是英语写作好兄弟。</li>
-<li>Notion是进度掌控和文档管理的工具。</li>
-<li>Overleaf是在线论文协作永远滴神。</li>
-</ul>
-<p>工具都是次要的。如果要使用，建议三个人都共同使用。</p>
-<p>我们就是因为队友C没有很好的使用这三个工具而导致浪费了很多的时间。</p>
-<h1 id="打个分吧">打个分吧</h1>
-<p>本人：⭐⭐⭐⭐⭐⭐<br>
-总体：⭐⭐⭐</p>
-<p>不以结果论英雄，但更不应该以过程论结果。</p>
-<h1 id="后续写在2020102">后续（写在2020/10/2）</h1>
-<h2 id="结果">结果</h2>
-<p>最后unsuccessful participant-I了。算了一下unsuccesful的比例比oustanding还小:)</p>
-<p>link：<a href="https://www.comap.com/undergraduate/contests/mcm/instructions.php">unsuccessful是什么</a>：</p>
-<blockquote>
-<p>Unsuccessful Participant – Incomplete: The solution paper was found to be significantly incomplete and did not show any serious effort in adequately responding to the contest problem or its requirements.</p>
-</blockquote>
-<p>后面复盘觉得是论文的结构出了问题，才会让评审认为没有完成解答。</p>
-<p>C同学也作了道歉。</p>
-<h2 id="评价">评价</h2>
-<p>自然是一个相当不满意的建模经历，当时难过了好几天，通过行文都能看出被压抑住的愤怒🤬。</p>
-<p>不过还是涨了教训换了队友，没怎么准备的<a href="http://www.mcm.edu.cn/">国赛</a>拿了个小小的省一(p≧w≦q)。</p>
 ]]></content>
     </entry>
 </feed>
