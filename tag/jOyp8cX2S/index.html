@@ -2,11 +2,11 @@
   <head>
   <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Machine Learning | BANKRUPT</title>
-<link rel="shortcut icon" href="https://blog.xtopia.fun/favicon.ico?v=1608454601761">
+<title>人工智能 | BANKRUPT</title>
+<link rel="shortcut icon" href="https://blog.xtopia.fun/favicon.ico?v=1608460004610">
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
 <link rel="stylesheet" href="https://blog.xtopia.fun/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Machine Learning | BANKRUPT - Atom Feed" href="https://blog.xtopia.fun/atom.xml">
+<link rel="alternate" type="application/atom+xml" title="人工智能 | BANKRUPT - Atom Feed" href="https://blog.xtopia.fun/atom.xml">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700&display=swap" media="print" onload="this.media='all'">
 
 
@@ -40,7 +40,7 @@
       <div class="main-content">
         <div class="site-header">
   <a href="https://blog.xtopia.fun">
-  <img class="avatar" src="https://blog.xtopia.fun/images/avatar.png?v=1608454601761" alt="">
+  <img class="avatar" src="https://blog.xtopia.fun/images/avatar.png?v=1608460004610" alt="">
   </a>
   <h1 class="site-title">
     BANKRUPT
@@ -106,39 +106,91 @@
 
         <div class="current-tag-container">
             <h2 class="title">
-                标签：# Machine Learning
+                标签：# 人工智能
             </h2> 
         </div>
         <div class="post-container">
   
     <article class="post">
-      <a href="https://blog.xtopia.fun/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/">
-        <h2 class="post-title">使用近端梯度下降法求解L1正则化</h2>
+      <a href="https://blog.xtopia.fun/post/bias-in-ai-1/">
+        <h2 class="post-title">BIAS in AI (1)</h2>
       </a>
       <div class="post-info">
         <span>
-          2020-04-17
+          2020-12-20
         </span>
         <span>
-          13 min read
+          11 min read
         </span>
         
           <a href="https://blog.xtopia.fun/tag/jOyp8cX2S/" class="post-tag">
-            # Machine Learning
+            # 人工智能
           </a>
         
-          <a href="https://blog.xtopia.fun/tag/RT_xX0986b/" class="post-tag">
-            # Optimization
+          <a href="https://blog.xtopia.fun/tag/4kwT7enK1/" class="post-tag">
+            # 笔记
+          </a>
+        
+          <a href="https://blog.xtopia.fun/tag/n6T_3j_x3j/" class="post-tag">
+            # 学术
           </a>
         
       </div>
       
-        <a href="https://blog.xtopia.fun/post/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua/" class="post-feature-image" style="background-image: url('https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/shi-yong-ruan-yu-zhi-soft-thresholdingqiu-jie-l1-zheng-ze-hua.png')">
+        <a href="https://blog.xtopia.fun/post/bias-in-ai-1/" class="post-feature-image" style="background-image: url('https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/BIAS%20IN%20AI.png')">
         </a>
       
       <div class="post-abstract">
-        <h1 id="0-introduction">0. INTRODUCTION</h1>
-<p>学正则化的时候, 基础的教材都会告诉初学者, 一般来说有<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">ℓ</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\ell-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord">ℓ</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span> -Lasso正则化, 也有<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">ℓ</mi><mo>−</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\ell-2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord">ℓ</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span> -Ridge岭回归. 然后会比较一大通两者的优缺点. 比较注重数学的教材可能还会讲一讲<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">ℓ</mi><mo>−</mo><mn>2</mn></mrow><annotation encoding="application/x-tex">\ell-2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord">ℓ</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span></span></span></span>正则化怎么求解, 但几乎没有地方涉及到过<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">ℓ</mi><mo>−</mo><mn>1</mn></mrow><annotation encoding="application/x-tex">\ell-1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.77777em;vertical-align:-0.08333em;"></span><span class="mord">ℓ</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>正则化的求解方法.</p>
+        <blockquote>
+<p>When we say algorithm fairness, what we're talking about?</p>
+</blockquote>
+<p>当我们在提及算法公平性的时候，我们在谈论什么？</p>
+<p>来源：Safety, Bias, and Fairness (guest lecture by <em><a href="http://www.m-mitchell.com/">Margaret Mitchell</a></em>) [<a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/slides/cs224n-2019-lecture19-bias.pdf">slides</a>] [<a href="https://www.youtube.com/watch?v=XR8YSRcuVLE&amp;feature=youtu.be">video</a>]<br>
+Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1194/">CS224n: Natural Language Processing with Deep Learning</a></p>
+
+      </div>
+    </article>
+  
+    <article class="post">
+      <a href="https://blog.xtopia.fun/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/">
+        <h2 class="post-title">NOTES | A Brief Survey of Computational Approaches in Social Computing</h2>
+      </a>
+      <div class="post-info">
+        <span>
+          2020-11-23
+        </span>
+        <span>
+          9 min read
+        </span>
+        
+          <a href="https://blog.xtopia.fun/tag/KLgYg1gDL/" class="post-tag">
+            # 社会计算
+          </a>
+        
+          <a href="https://blog.xtopia.fun/tag/meq9PFUtD/" class="post-tag">
+            # 论文阅读
+          </a>
+        
+          <a href="https://blog.xtopia.fun/tag/jOyp8cX2S/" class="post-tag">
+            # 人工智能
+          </a>
+        
+          <a href="https://blog.xtopia.fun/tag/n6T_3j_x3j/" class="post-tag">
+            # 学术
+          </a>
+        
+      </div>
+      
+        <a href="https://blog.xtopia.fun/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/" class="post-feature-image" style="background-image: url('https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/social%20computing.png')">
+        </a>
+      
+      <div class="post-abstract">
+        <p><em>A Brief Survey of Computational Approaches in Social Computing</em>是2009年发表在IJCNN上的文章。是一篇关于社会计算的综述。</p>
+<ul>
+<li>AUTHOR：Irwin King; Jiexing Li; Kam Tong Chan</li>
+<li>DOI: <a href="https://doi.org/10.1109/IJCNN.2009.5178967">10.1109/IJCNN.2009.5178967</a></li>
+<li>citations: 110</li>
+</ul>
 
       </div>
     </article>
