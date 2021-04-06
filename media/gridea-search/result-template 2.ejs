@@ -1,0 +1,26 @@
+<div class="post-container">
+    <% posts.forEach(function(post) { %>
+      <article class="post">
+          <a href="<%= post.link %>">
+            <div>
+              <!-- <a href="<%= post.link %>"> -->
+              <h2 class="post-title"><%= post.title %></h2>
+              <!-- </a> -->
+            </div>
+            <div class="post-content post-abstract">
+              <p><%- post.searchedPreview %></p>
+            </div>
+          </a>
+          <div class="post-info">
+            <time class="post-time">
+              · <%= post.dateFormat %> ·
+            </time>
+            <% post.tags.forEach(function(tag) { %>
+              <a href="<%= tag.link %>" class="post-tag">
+                # <%= tag.name %>
+              </a>
+            <% }); %>
+          </div>
+      </article>
+    <% }); %>
+</div>
