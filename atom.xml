@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.xtopia.fun</id>
     <title>BANKRUPT</title>
-    <updated>2021-01-26T13:54:44.535Z</updated>
+    <updated>2021-04-06T09:58:25.468Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.xtopia.fun"/>
     <link rel="self" href="https://blog.xtopia.fun/atom.xml"/>
@@ -10,6 +10,164 @@
     <logo>https://blog.xtopia.fun/images/avatar.png</logo>
     <icon>https://blog.xtopia.fun/favicon.ico</icon>
     <rights>All rights reserved 2021, BANKRUPT</rights>
+    <entry>
+        <title type="html"><![CDATA[PROJECT | 微博数据采集项目]]></title>
+        <id>https://blog.xtopia.fun/post/wei-bo-shu-ju-cai-ji-xiang-mu/</id>
+        <link href="https://blog.xtopia.fun/post/wei-bo-shu-ju-cai-ji-xiang-mu/">
+        </link>
+        <updated>2021-04-06T09:17:07.000Z</updated>
+        <summary type="html"><![CDATA[<p>本文为项目<a href="https://github.com/XWang20/WeiboCrawler">XWang20/WeiboCrawler</a>的文档。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>本文为项目<a href="https://github.com/XWang20/WeiboCrawler">XWang20/WeiboCrawler</a>的文档。</p>
+<!-- more -->
+<h1 id="项目说明">项目说明</h1>
+<p>本项目参考了<a href="https://github.com/nghuyong/WeiboSpider">dataabc/weibo-crawler</a>和<a href="https://github.com/dataabc/weibo-crawler">nghuyong/WeiboSpider</a>，感谢他们的开源。</p>
+<h2 id="项目介绍">项目介绍</h2>
+<p>新浪微博是国内主要的社交舆论平台，对社交媒体中的数据进行采集是舆论分析的重要方法之一。</p>
+<p>本采集工具无需cookie，可以连续爬取一个或多个新浪微博用户信息、用户微博及其微博评论转发。</p>
+<h2 id="采集实例">采集实例</h2>
+<p>抓取用户信息<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406163110.png" alt="user" loading="lazy"><br>
+抓取用户微博<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406163931.png" alt="mblog" loading="lazy"><br>
+抓取微博转发<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406164056.png" alt="Repost" loading="lazy"><br>
+抓取微博评论<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406164127.png" alt="Comment" loading="lazy"></p>
+<h1 id="使用方法">使用方法</h1>
+<h2 id="拉取项目">拉取项目</h2>
+<pre><code>git clone https://github.com/XWang20/WeiboCrawler.git
+</code></pre>
+<h2 id="安装依赖">安装依赖</h2>
+<p>本项目Python版本为Python3.8</p>
+<pre><code>cd WeiboCrawler
+python -m pip install -r requirements.txt
+</code></pre>
+<h2 id="安装数据库可选">安装数据库（可选）</h2>
+<p>默认使用MongoDB数据库，可在<a href="https://github.com/XWang20/WeiboCrawler/blob/main/WeiboCrawler/settings.py">settings.py</a>中修改URL和数据库名，默认为localhost、weibo。</p>
+<h2 id="运行程序">运行程序</h2>
+<h3 id="基本程序">基本程序</h3>
+<p>抓取用户信息</p>
+<pre><code>scrapy crawl user
+</code></pre>
+<p>抓取用户微博</p>
+<pre><code>scrapy crawl mblog
+</code></pre>
+<p>抓取微博转发</p>
+<pre><code>scrapy crawl repost
+</code></pre>
+<p>抓取微博评论</p>
+<pre><code>scrapy crawl comment
+</code></pre>
+<h3 id="自定义选项">自定义选项</h3>
+<ol>
+<li>
+<p>采集id和时间范围等信息可根据自己实际需要重写<code>./WeiboCrawler/spiders/*.py</code>中的<code>start_requests</code>函数。</p>
+</li>
+<li>
+<p>默认输出到数据库中，若需要输出json或csv文件：在命令后加入<code>-o *.json</code>或<code>-o *.csv</code>，例如：</p>
+</li>
+</ol>
+<pre><code>scrapy crawl user -o user.csv
+</code></pre>
+<ol start="3">
+<li>
+<p>添加账号cookie：可在<a href="https://github.com/XWang20/WeiboCrawler/blob/main/WeiboCrawler/settings.py">settings.py</a>中添加默认头，或在start_request函数中添加。</p>
+</li>
+<li>
+<p>默认下载延迟为3，可在<a href="https://github.com/XWang20/WeiboCrawler/blob/main/WeiboCrawler/settings.py">settings.py</a>修改DOWNLOAD_DELAY。</p>
+</li>
+<li>
+<p>暂停并恢复爬行：详见 <a href="https://scrapy-16.readthedocs.io/zh_CN/1.6/topics/jobs.html">作业:暂停并恢复爬行 — Scrapy  文档</a></p>
+</li>
+</ol>
+<h1 id="无cookie版限制的说明">无cookie版限制的说明</h1>
+<ul>
+<li>单用户微博最多采集200页，每页最多10条</li>
+<li>单微博评论最多采集两页，约20条</li>
+<li>单微博转发采集无限制<br>
+以上限制都可以通过添加账号cookie解决。</li>
+</ul>
+<h1 id="设置多线程和代理ip">设置多线程和代理ip</h1>
+<ul>
+<li>多线程：<br>
+在<a href="https://github.com/XWang20/WeiboCrawler/blob/main/WeiboCrawler/settings.py">settings.py</a>文件中将以下代码取消注释:</li>
+</ul>
+<pre><code class="language-python"># Configure maximum concurrent requests performed by Scrapy (default: 16)
+CONCURRENT_REQUESTS = 100
+# The download delay setting will honor only one of:
+CONCURRENT_REQUESTS_PER_DOMAIN = 100
+CONCURRENT_REQUESTS_PER_IP = 100
+</code></pre>
+<ul>
+<li>代理ip池</li>
+</ul>
+<ol>
+<li>填写<a href="https://github.com/XWang20/WeiboCrawler/blob/main/WeiboCrawler/middlewares.py">middlewares.py</a>中的<code>fetch_proxy</code>函数。</li>
+<li>在<a href="https://github.com/XWang20/WeiboCrawler/blob/main/WeiboCrawler/settings.py">settings.py</a>文件中将以下代码取消注释:</li>
+</ol>
+<pre><code class="language-python"># Enable or disable downloader middlewares
+# See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
+DOWNLOADER_MIDDLEWARES = {
+    'WeiboCrawler.middlewares.IPProxyMiddleware': 100,
+}
+</code></pre>
+<ol start="3">
+<li>在<a href="https://github.com/XWang20/WeiboCrawler/blob/main/WeiboCrawler/settings.py">settings.py</a>文件中将DOWNLOAD_DELAY设置为0。</li>
+</ol>
+<pre><code class="language-python">DOWNLOAD_DELAY = 0
+</code></pre>
+<h1 id="字段说明">字段说明</h1>
+<h2 id="用户信息">用户信息</h2>
+<ul>
+<li>_id: 用户ID</li>
+<li>nick_name: 昵称</li>
+<li>gender: 性别</li>
+<li>brief_introduction: 简介</li>
+<li>mblogs_num: 微博数</li>
+<li>follows_num: 关注数</li>
+<li>fans_num: 粉丝数</li>
+<li>vip_level: 会员等级</li>
+<li>authentication: 认证</li>
+<li>person_url: 首页链接</li>
+</ul>
+<h2 id="微博信息">微博信息</h2>
+<ul>
+<li>_id: 微博id</li>
+<li>bid: 微博bid</li>
+<li>weibo_url: 微博URL</li>
+<li>created_at: 微博发表时间</li>
+<li>like_num: 点赞数</li>
+<li>repost_num: 转发数</li>
+<li>comment_num: 评论数</li>
+<li>content: 微博内容</li>
+<li>user_id: 发表该微博用户的id</li>
+<li>tool: 发布微博的工具</li>
+</ul>
+<h2 id="转发信息">转发信息</h2>
+<ul>
+<li>_id: 转发id</li>
+<li>repost_user_id: 转发用户的id</li>
+<li>content: 转发的内容</li>
+<li>mblog_id: 转发的微博的id</li>
+<li>created_at: 转发时间</li>
+<li>source: 转发工具</li>
+</ul>
+<h2 id="评论信息">评论信息</h2>
+<ul>
+<li>_id: 评论id</li>
+<li>comment_user_id: 评论用户的id</li>
+<li>content: 评论的内容</li>
+<li>mblog_id: 评论的微博的id</li>
+<li>created_at: 评论发表时间</li>
+<li>like_num: 点赞数</li>
+<li>root_comment_id:  根评论id，只有二级评论有该项</li>
+</ul>
+<h1 id="写在最后">写在最后</h1>
+<p>欢迎为本项目贡献力量。贡献可以是提交代码，可以是通过issue提建议（如新功能、改进方案等），也可以是通过issue告知项目存在哪些bug、缺点等。</p>
+<p>如需交流，也欢迎联系我：<a href="mailto:wangxing@xtopia.fun">wangxing@xtopia.fun</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2020, 书影音记录]]></title>
         <id>https://blog.xtopia.fun/post/2020-shu-ying-yin-ji-lu/</id>
@@ -1308,40 +1466,6 @@ Output: 3
 <h1 id="结果-写于2020年12月1日">结果 (写于2020年12月1日)</h1>
 <p>最后还是不出意外的没有过T T。</p>
 <figure data-type="image" tabindex="1"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/B59E4483759CED4581FBA3F2D0DCDDDB.png" alt="" loading="lazy"></figure>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[和你在一起]]></title>
-        <id>https://blog.xtopia.fun/post/he-ni-zai-yi-qi/</id>
-        <link href="https://blog.xtopia.fun/post/he-ni-zai-yi-qi/">
-        </link>
-        <updated>2020-05-28T14:56:35.000Z</updated>
-        <summary type="html"><![CDATA[<p>昨天在梦里 我又看见你</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>昨天在梦里 我又看见你</p>
-<!-- more -->
-<p>宝贝 他们说 我不爱你<br>
-你拥有我的 不只是今夜<br>
-可是 你比我 小了六岁</p>
-<p>如果我们不能结婚 你怎么受得了<br>
-宝贝 我知道 虽然你不说<br>
-如果我们就要结婚 我怎么能受得了<br>
-宝贝 别在夜里等我</p>
-<p>我已经不会 经常想她们<br>
-可是 过去 怎能全忘记<br>
-你不相信我 也不会再说<br>
-宝贝 随便吧 随便吧</p>
-<p>我想和你在一起 直到我不爱你<br>
-宝贝 人和人 一场游戏<br>
-我愿意为你死去 如果我还爱你<br>
-宝贝 反正活着 也没意义</p>
-<p>我要和你在一起 直到我不爱你<br>
-宝贝 人和人 一场游戏<br>
-我愿意为你死去 如果我还爱你<br>
-宝贝 我也只能 这样为你<br>
-宝贝 我也只能 这样为你<br>
-宝贝 我也只能 这样为你</p>
-<p>词/曲：李志</p>
 ]]></content>
     </entry>
 </feed>
