@@ -1,0 +1,325 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>NOTES | SOCIAL BIAS FRAMES | BANKRUPT</title>
+<link rel="shortcut icon" href="https://blog.xtopia.fun/favicon.ico?v=1617712445409">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://blog.xtopia.fun/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="NOTES | SOCIAL BIAS FRAMES | BANKRUPT - Atom Feed" href="https://blog.xtopia.fun/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700&display=swap" media="print" onload="this.media='all'">
+
+
+<script>
+  (function(a,b,c){var d=a.history,e=document,f=navigator||{},g=localStorage,
+  h=encodeURIComponent,i=d.pushState,k=function(){return Math.random().toString(36)},
+  l=function(){return g.cid||(g.cid=k()),g.cid},m=function(r){var s=[];for(var t in r)
+  r.hasOwnProperty(t)&&void 0!==r[t]&&s.push(h(t)+"="+h(r[t]));return s.join("&")},
+  n=function(r,s,t,u,v,w,x){var z="https://www.google-analytics.com/collect",
+  A=m({v:"1",ds:"web",aip:c.anonymizeIp?1:void 0,tid:b,cid:l(),t:r||"pageview",
+  sd:c.colorDepth&&screen.colorDepth?screen.colorDepth+"-bits":void 0,dr:e.referrer||
+  void 0,dt:e.title,dl:e.location.origin+e.location.pathname+e.location.search,ul:c.language?
+  (f.language||"").toLowerCase():void 0,de:c.characterSet?e.characterSet:void 0,
+  sr:c.screenSize?(a.screen||{}).width+"x"+(a.screen||{}).height:void 0,vp:c.screenSize&&
+  a.visualViewport?(a.visualViewport||{}).width+"x"+(a.visualViewport||{}).height:void 0,
+  ec:s||void 0,ea:t||void 0,el:u||void 0,ev:v||void 0,exd:w||void 0,exf:"undefined"!=typeof x&&
+  !1==!!x?0:void 0});if(f.sendBeacon)f.sendBeacon(z,A);else{var y=new XMLHttpRequest;
+  y.open("POST",z,!0),y.send(A)}};d.pushState=function(r){return"function"==typeof d.onpushstate&&
+  d.onpushstate({state:r}),setTimeout(n,c.delay||10),i.apply(d,arguments)},n(),
+  a.ma={trackEvent:function o(r,s,t,u){return n("event",r,s,t,u)},
+  trackException:function q(r,s){return n("exception",null,null,null,null,r,s)}}})
+  (window,"UA-163788379-1",{anonymizeIp:true,colorDepth:true,characterSet:true,screenSize:true,language:true});
+</script>
+
+
+
+    <meta name="description" content="本篇为SOCIAL BIAS FRAMES: Reasoning about Social and Power Implications of Language的论文笔记。
+
+作者 (AUTHOR)
+Maarten Sap：华盛顿大学NLP..." />
+    <meta name="keywords" content="社会计算,论文阅读,人工智能,笔记,学术" />
+    <link rel="stylesheet" href="https://s3.pstatp.com/cdn/expire-1-M/KaTeX/0.10.1/katex.min.css">
+    <script src="https://s2.pstatp.com/cdn/expire-1-M/highlight.js/9.15.6/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/valine"></script>
+
+<style>
+	div#vcomments{
+		width:100%;
+		max-width: 800px;
+		padding: 2.5%
+	}
+</style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://blog.xtopia.fun">
+  <img class="avatar" src="https://blog.xtopia.fun/images/avatar.png?v=1617712445409" alt="">
+  </a>
+  <h1 class="site-title">
+    BANKRUPT
+  </h1>
+  <p class="site-description">
+    在心裡與你握手😊
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          HOME
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          ARCHIVES
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          TAGS
+        </a>
+      
+    
+      
+        <a href="/post/links" class="menu">
+          LINKS
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          ABOUT
+        </a>
+      
+    
+  </div>
+  <div style="text-align: center">
+    <form id="gridea-search-form" style="position: relative" data-update="1617712445409" action="/search/index.html">
+        <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+        <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+    </form>
+</div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              NOTES | SOCIAL BIAS FRAMES
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-04-06
+              </span>
+              <span>
+                5 min read
+              </span>
+              
+                <a href="https://blog.xtopia.fun/tag/KLgYg1gDL/" class="post-tag">
+                  # 社会计算
+                </a>
+              
+                <a href="https://blog.xtopia.fun/tag/meq9PFUtD/" class="post-tag">
+                  # 论文阅读
+                </a>
+              
+                <a href="https://blog.xtopia.fun/tag/jOyp8cX2S/" class="post-tag">
+                  # 人工智能
+                </a>
+              
+                <a href="https://blog.xtopia.fun/tag/4kwT7enK1/" class="post-tag">
+                  # 笔记
+                </a>
+              
+                <a href="https://blog.xtopia.fun/tag/n6T_3j_x3j/" class="post-tag">
+                  # 学术
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/social%20bias%20frame.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>本篇为<a href="https://homes.cs.washington.edu/~msap/social-bias-frames/">SOCIAL BIAS FRAMES: Reasoning about Social and Power Implications of Language</a>的论文笔记。</p>
+<!-- more -->
+<h1 id="作者-author">作者 (AUTHOR)</h1>
+<p><a href="https://homes.cs.washington.edu/~msap/index.html">Maarten Sap</a>：华盛顿大学NLP组博士生。<br>
+导师：<a href="https://homes.cs.washington.edu/~nasmith/">Noah Smith</a>和<a href="https://homes.cs.washington.edu/~yejin/">Yejin Choi</a><br>
+研究方向：endowing NLP systems with social intelligence and social commonsense, and understanding social inequality and bias in language.</p>
+<h1 id="研究动机-motivation">研究动机 (MOTIVATION)</h1>
+<ol>
+<li>语言中的bias很少是明确表达的，通常会隐藏在重重框架下，暗示了人们对于他人的评价。例如：“我们不应该降低标准雇佣女性”暗含了女性的能力更低的信息。表1中有一些例子。</li>
+<li>精确理解话语框架下的bias对于AI系统和社会交互非常重要，否则可能会部署一些有害的系统。例如，微软小Tay通过和人类对话学习到阴谋论、种族歧视、纳粹主义。<a href="http://www.xinhuanet.com/world/2016-04/02/c_128859572.htm">从微软聊天机器人“学坏”说起</a></li>
+<li>现有的工作一般把social bias定义为一个简单的toxicity classification任务。然而，这种分类有歧视少数群体的风险，因为在不同的注解中存在高variation和基于身份的bias。</li>
+<li>一个对social bias更详细的解释可以提供更多的信息，这对于人们理解和推断一个陈述为什么可能对其他人有害有帮助。</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406191416.png" alt="" loading="lazy"></figure>
+<h1 id="主要工作-main-arguments">主要工作 (MAIN ARGUMENTS)</h1>
+<ol>
+<li>建立了一个模型 SOCIAL BIAS FRAMES，一种新的概念形式主义，旨在建立反应人们投射社会偏见和刻板印象的模型。</li>
+<li>提出了一个数据集 Social Bias Inference Corpus(SBIC)，支持大规模的建模和评估，涵盖150k在社会媒体中结构化职业性的标注，涵盖超过34k人，涉及一千个群体。</li>
+<li>提出了一个baseline，在非结构化文本中应用social bias frames。</li>
+</ol>
+<h1 id="模型框架-framework">模型框架 (FRAMEWORK)</h1>
+<h2 id="social-bias-frames">Social Bias Frames</h2>
+<p>理解和解释为什么一个无伤大雅的陈述可能暗含了歧视，这需要知道关于会话含义和常识含义的潜在意图、是否具有攻击性、和不同社会群体之间的权力差异。Social Bias Frame旨在通过结合分类标注和自由文本标注，展示与社会偏见相关的内涵。<br>
+模型框架如图：<br>
+<img src="https://homes.cs.washington.edu/~msap/social-bias-frames/exampleFrames.png" alt="" loading="lazy"></p>
+<h2 id="social-bias-inference-corpussbic">Social Bias Inference Corpus(SBIC)</h2>
+<p>数据集来源和标注详情看论文。表1里有一些数据集中的例子。</p>
+<h2 id="social-bias-inference-baseline-approach">Social Bias Inference (Baseline Approach)</h2>
+<p>基于 OpenAI-GPT Transformer，模型是一个hybrid classification and language generation task。<br>
+任务有：</p>
+<ul>
+<li>分类任务：
+<ol>
+<li>是否是有意的</li>
+<li>是否是具有冒犯的，如果是，是否影射了某个社会群体</li>
+<li>是否是具有性骚扰的</li>
+</ol>
+</li>
+<li>生成任务：
+<ol>
+<li>影射的群体名称</li>
+<li>暗示的含义<br>
+其中生成任务中使用了greedy decoding。(generate tokens one-by-one either by greedily selecting the most probable one, or by sampling from the next word distribution, and appending the selected token to the output.)</li>
+</ol>
+</li>
+</ul>
+<h1 id="实验-experiment">实验 (EXPERIMENT)</h1>
+<h2 id="分类任务-classification-tasks">分类任务 (Classification Tasks)</h2>
+<p>分类任务结果如表4所示，可以看到模型在是否具有冒犯性、是否有意和是否性骚扰都有比较好的结果，尽管后者的样本不平衡。而是否指向某群体更难预测，发言人是否为in-group则几乎不可能预测到。<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406191805.png" alt="" loading="lazy"></p>
+<h2 id="生成任务-generation-tasks">生成任务 (Generation Tasks)</h2>
+<p>生成任务结果如表5所示，生成任务中，没有一个模型可以达到在所有指标上都最优。<br>
+总的来说，模型在生成group targeted 组方面表现很好，可能是因为生成空间更加有限。相反，对于隐含语句生成(其中输出空间大得多) ，模型性能稍差。<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406191207.png" alt="" loading="lazy"></p>
+<h2 id="误差分析-error-analysis">误差分析 (Error Analysis)</h2>
+<p>由于文本生成自动评估度量的细微差异与人类判断的相关很弱，作者从 SBF-GPT2-gdy-constr 模型中手动选择了一组生成集示例进行了错误分析，如表6所示。<br>
+总的来说，模型似乎很难生成与文本相关的暗示含义，更多的是生成关于群体的非常通用的刻板印象(例如 b 和 c )。但当文章中的词汇有很大的重叠时(例如 d 和 e) ，模型就会生成正确的原型。<br>
+<img src="https://xtopia-1258297046.cos.ap-shanghai.myqcloud.com/20210406191309.png" alt="" loading="lazy"></p>
+<h1 id="社会意义-important-implication-of-this-study">社会意义 (IMPORTANT IMPLICATION of this STUDY)</h1>
+<p>研究Social Bias Frame要求面对可能是冒犯性的或令人不安的内容。然而，故意回避并不能消除这些问题。本研究的应用方向有：</p>
+<ol>
+<li>在社交媒体上自动标注或者AI辅助写作提示可能具有bias的信息，提醒人们注意和确认。</li>
+<li>提醒帮助人们减少语言中无意识的偏见(unconscious bias)。</li>
+</ol>
+<h1 id="后续工作-further-research">后续工作 (FURTHER RESEARCH)</h1>
+<p>可以看到任务的准确率，尤其是生成任务的准确率还不够高，这可能需要更复杂的模型。</p>
+<h1 id="写在最后">写在最后</h1>
+<p>封面人物来源：<a href="https://getavataaars.com/">avataaars generator</a></p>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#%E4%BD%9C%E8%80%85-author">作者 (AUTHOR)</a></li>
+<li><a href="#%E7%A0%94%E7%A9%B6%E5%8A%A8%E6%9C%BA-motivation">研究动机 (MOTIVATION)</a></li>
+<li><a href="#%E4%B8%BB%E8%A6%81%E5%B7%A5%E4%BD%9C-main-arguments">主要工作 (MAIN ARGUMENTS)</a></li>
+<li><a href="#%E6%A8%A1%E5%9E%8B%E6%A1%86%E6%9E%B6-framework">模型框架 (FRAMEWORK)</a>
+<ul>
+<li><a href="#social-bias-frames">Social Bias Frames</a></li>
+<li><a href="#social-bias-inference-corpussbic">Social Bias Inference Corpus(SBIC)</a></li>
+<li><a href="#social-bias-inference-baseline-approach">Social Bias Inference (Baseline Approach)</a></li>
+</ul>
+</li>
+<li><a href="#%E5%AE%9E%E9%AA%8C-experiment">实验 (EXPERIMENT)</a>
+<ul>
+<li><a href="#%E5%88%86%E7%B1%BB%E4%BB%BB%E5%8A%A1-classification-tasks">分类任务 (Classification Tasks)</a></li>
+<li><a href="#%E7%94%9F%E6%88%90%E4%BB%BB%E5%8A%A1-generation-tasks">生成任务 (Generation Tasks)</a></li>
+<li><a href="#%E8%AF%AF%E5%B7%AE%E5%88%86%E6%9E%90-error-analysis">误差分析 (Error Analysis)</a></li>
+</ul>
+</li>
+<li><a href="#%E7%A4%BE%E4%BC%9A%E6%84%8F%E4%B9%89-important-implication-of-this-study">社会意义 (IMPORTANT IMPLICATION of this STUDY)</a></li>
+<li><a href="#%E5%90%8E%E7%BB%AD%E5%B7%A5%E4%BD%9C-further-research">后续工作 (FURTHER RESEARCH)</a></li>
+<li><a href="#%E5%86%99%E5%9C%A8%E6%9C%80%E5%90%8E">写在最后</a></li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://blog.xtopia.fun/post/wei-bo-shu-ju-cai-ji-xiang-mu/">
+              <h3 class="post-title">
+                PROJECT | 微博数据采集项目
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+
+      <div id="vcomments"></div>
+      <script>
+          new Valine({
+              el: '#vcomments',
+              lang: 'zh-cn',//设置评论语言
+              app_id: '0glHbQOVYrwnrCDsjkeXG0CQ-gzGzoHsz',			    										   	
+              app_key: 'ev2DY4ktRLwNGlTD3VT3bkSS',    										      
+              placeholder: 'Write a comment',  // 提示符
+              max_nest: 2,					// 嵌套评论深度，太大会影响加载速度
+              page_size: 5					// 分页大小
+          })
+      </script>
+
+        <div class="site-footer">
+  此处是通往何方的小道. 
+  <a class="rss" href="https://blog.xtopia.fun/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+
+      </div>
+
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
