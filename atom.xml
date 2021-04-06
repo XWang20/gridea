@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://blog.xtopia.fun</id>
     <title>BANKRUPT</title>
-    <updated>2021-04-06T10:15:26.507Z</updated>
+    <updated>2021-04-06T10:23:25.577Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://blog.xtopia.fun"/>
+    <link rel="self" href="https://blog.xtopia.fun/atom.xml"/>
     <subtitle>在心裡與你握手😊</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://blog.xtopia.fun/images/avatar.png</logo>
+    <icon>https://blog.xtopia.fun/favicon.ico</icon>
     <rights>All rights reserved 2021, BANKRUPT</rights>
     <entry>
         <title type="html"><![CDATA[PROJECT | 微博数据采集项目]]></title>
-        <id>http://localhost:4000/post/wei-bo-shu-ju-cai-ji-xiang-mu/</id>
-        <link href="http://localhost:4000/post/wei-bo-shu-ju-cai-ji-xiang-mu/">
+        <id>https://blog.xtopia.fun/post/wei-bo-shu-ju-cai-ji-xiang-mu/</id>
+        <link href="https://blog.xtopia.fun/post/wei-bo-shu-ju-cai-ji-xiang-mu/">
         </link>
         <updated>2021-04-06T09:17:07.000Z</updated>
         <summary type="html"><![CDATA[<p>本文为项目<a href="https://github.com/XWang20/WeiboCrawler">XWang20/WeiboCrawler</a>的文档。</p>
@@ -170,8 +170,8 @@ DOWNLOADER_MIDDLEWARES = {
     </entry>
     <entry>
         <title type="html"><![CDATA[2020, 书影音记录]]></title>
-        <id>http://localhost:4000/post/2020-shu-ying-yin-ji-lu/</id>
-        <link href="http://localhost:4000/post/2020-shu-ying-yin-ji-lu/">
+        <id>https://blog.xtopia.fun/post/2020-shu-ying-yin-ji-lu/</id>
+        <link href="https://blog.xtopia.fun/post/2020-shu-ying-yin-ji-lu/">
         </link>
         <updated>2021-01-06T06:25:06.000Z</updated>
         <summary type="html"><![CDATA[<p>本篇本应该是<a href="https://blog.xtopia.fun/post/2021-new-year-revolution/">2021 New Year Resolution</a>的附属章节之一。但某人整理豆瓣列表时发现清单太长，不如干脆就重开一篇以充数。<br>
@@ -388,8 +388,8 @@ Rilo Kiley是上半年最喜欢的乐队。<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[2021 New Year Resolution]]></title>
-        <id>http://localhost:4000/post/2021-new-year-revolution/</id>
-        <link href="http://localhost:4000/post/2021-new-year-revolution/">
+        <id>https://blog.xtopia.fun/post/2021-new-year-revolution/</id>
+        <link href="https://blog.xtopia.fun/post/2021-new-year-revolution/">
         </link>
         <updated>2021-01-04T07:43:19.000Z</updated>
         <summary type="html"><![CDATA[<p>被催更的年度总结终于在我考试周的摸鱼时刻完成了。</p>
@@ -514,8 +514,8 @@ Rilo Kiley是上半年最喜欢的乐队。<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[BIAS in AI (1)]]></title>
-        <id>http://localhost:4000/post/bias-in-ai-1/</id>
-        <link href="http://localhost:4000/post/bias-in-ai-1/">
+        <id>https://blog.xtopia.fun/post/bias-in-ai-1/</id>
+        <link href="https://blog.xtopia.fun/post/bias-in-ai-1/">
         </link>
         <updated>2020-12-20T04:21:12.000Z</updated>
         <summary type="html"><![CDATA[<blockquote>
@@ -754,8 +754,8 @@ Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224
     </entry>
     <entry>
         <title type="html"><![CDATA[Unfinished & Untested, Lost Love]]></title>
-        <id>http://localhost:4000/post/unfinished-and-untested-lost-love/</id>
-        <link href="http://localhost:4000/post/unfinished-and-untested-lost-love/">
+        <id>https://blog.xtopia.fun/post/unfinished-and-untested-lost-love/</id>
+        <link href="https://blog.xtopia.fun/post/unfinished-and-untested-lost-love/">
         </link>
         <updated>2020-12-18T12:53:14.000Z</updated>
         <summary type="html"><![CDATA[<p>modern love是我们的隐居时间<br>
@@ -807,8 +807,8 @@ Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224
     </entry>
     <entry>
         <title type="html"><![CDATA[十二月初的碎碎念]]></title>
-        <id>http://localhost:4000/post/shi-er-yue-de-sui-sui-nian/</id>
-        <link href="http://localhost:4000/post/shi-er-yue-de-sui-sui-nian/">
+        <id>https://blog.xtopia.fun/post/shi-er-yue-de-sui-sui-nian/</id>
+        <link href="https://blog.xtopia.fun/post/shi-er-yue-de-sui-sui-nian/">
         </link>
         <updated>2020-12-06T06:15:07.000Z</updated>
         <summary type="html"><![CDATA[<p>星期四那天上午，我结束了大学里的最后一节课。从某个角度而言，我的大学已经结束了。然后我回到工作室，吃饭、学习，仿佛一切都还没什么变化。</p>
@@ -859,8 +859,8 @@ Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224
     </entry>
     <entry>
         <title type="html"><![CDATA[NOTES | 信息素养——学术研究的必修课]]></title>
-        <id>http://localhost:4000/post/notes-or-xin-xi-su-yang-xue-zhu-yan-jiu-de-bi-xiu-ke/</id>
-        <link href="http://localhost:4000/post/notes-or-xin-xi-su-yang-xue-zhu-yan-jiu-de-bi-xiu-ke/">
+        <id>https://blog.xtopia.fun/post/notes-or-xin-xi-su-yang-xue-zhu-yan-jiu-de-bi-xiu-ke/</id>
+        <link href="https://blog.xtopia.fun/post/notes-or-xin-xi-su-yang-xue-zhu-yan-jiu-de-bi-xiu-ke/">
         </link>
         <updated>2020-12-01T14:28:10.000Z</updated>
         <summary type="html"><![CDATA[<p>“信息素养——学术研究的必修课”是由清华大学图书馆开设的一门课，可以帮助入门者对科研有最初步和总体的认识。从信息检索到学术交流，这门课都有概括。推荐科研入门者观看。</p>
@@ -1155,8 +1155,8 @@ Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224
     </entry>
     <entry>
         <title type="html"><![CDATA[PPT资源分享]]></title>
-        <id>http://localhost:4000/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/</id>
-        <link href="http://localhost:4000/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/">
+        <id>https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/</id>
+        <link href="https://blog.xtopia.fun/post/dang-wo-kai-shi-zuo-ppt-shi-wo-zai-xiang-shi-me/">
         </link>
         <updated>2020-11-24T12:04:49.000Z</updated>
         <content type="html"><![CDATA[<h2 id="颜色-colors">颜色 Colors</h2>
@@ -1209,8 +1209,8 @@ Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224
     </entry>
     <entry>
         <title type="html"><![CDATA[NOTES | A Brief Survey of Computational Approaches in Social Computing]]></title>
-        <id>http://localhost:4000/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/</id>
-        <link href="http://localhost:4000/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/">
+        <id>https://blog.xtopia.fun/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/</id>
+        <link href="https://blog.xtopia.fun/post/notes-or-a-brief-survey-of-computational-approaches-in-social-computing/">
         </link>
         <updated>2020-11-23T12:57:35.000Z</updated>
         <summary type="html"><![CDATA[<p><em>A Brief Survey of Computational Approaches in Social Computing</em>是2009年发表在IJCNN上的文章。是一篇关于社会计算的综述。</p>
@@ -1351,8 +1351,8 @@ Stanford / Winter 2019, <a href="https://web.stanford.edu/class/archive/cs/cs224
     </entry>
     <entry>
         <title type="html"><![CDATA[记录一场面试 | MSRA SIG]]></title>
-        <id>http://localhost:4000/post/ji-lu-yi-chang-mian-shi/</id>
-        <link href="http://localhost:4000/post/ji-lu-yi-chang-mian-shi/">
+        <id>https://blog.xtopia.fun/post/ji-lu-yi-chang-mian-shi/</id>
+        <link href="https://blog.xtopia.fun/post/ji-lu-yi-chang-mian-shi/">
         </link>
         <updated>2020-11-20T15:21:43.000Z</updated>
         <summary type="html"><![CDATA[<p>本来不打算写，因为也很大概率不通过。但毕竟也是人生中第一段工作面试，恰好今晚上nlp组的面试突然被咕咕了(,,ԾㅂԾ,,)。</p>
