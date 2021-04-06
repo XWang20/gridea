@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.xtopia.fun</id>
     <title>BANKRUPT</title>
-    <updated>2021-04-06T10:01:55.708Z</updated>
+    <updated>2021-04-06T10:04:39.134Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.xtopia.fun"/>
     <link rel="self" href="https://blog.xtopia.fun/atom.xml"/>
@@ -164,8 +164,8 @@ DOWNLOADER_MIDDLEWARES = {
 <li>root_comment_id:  根评论id，只有二级评论有该项</li>
 </ul>
 <h1 id="写在最后">写在最后</h1>
-<p>欢迎为本项目贡献力量。贡献可以是提交代码，可以是通过issue提建议（如新功能、改进方案等），也可以是通过issue告知项目存在哪些bug、缺点等。</p>
-<p>如需交流，也欢迎联系我：<a href="mailto:wangxing@xtopia.fun">wangxing@xtopia.fun</a></p>
+<p>如需交流，欢迎联系：<a href="mailto:wangxing@xtopia.fun">wangxing@xtopia.fun</a><br>
+首页封面插画：<a href="https://www.oldbookillustrations.com/illustrations/natal-rock-python/">Natal Rock Python</a></p>
 ]]></content>
     </entry>
     <entry>
